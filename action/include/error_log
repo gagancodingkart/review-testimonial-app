@@ -1,0 +1,47 @@
+[03-Jul-2020 07:12:08 UTC] PHP Warning:  require_once(../server/serverFun.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/reviews/appInstall/generate_token.php on line 5
+[03-Jul-2020 07:12:08 UTC] PHP Stack trace:
+[03-Jul-2020 07:12:08 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/reviews/appInstall/generate_token.php:0
+[03-Jul-2020 07:12:08 UTC] PHP Fatal error:  require_once(): Failed opening required '../server/serverFun.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/reviews/appInstall/generate_token.php on line 5
+[03-Jul-2020 07:12:08 UTC] PHP Stack trace:
+[03-Jul-2020 07:12:08 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/reviews/appInstall/generate_token.php:0
+[04-Jul-2020 15:52:34 Asia/Kolkata] PHP Notice:  Undefined variable: conn in /home/codingkloud/public_html/shopify-app/action/appInstallation/GenerateToken.php on line 50
+[04-Jul-2020 15:52:34 Asia/Kolkata] PHP Stack trace:
+[04-Jul-2020 15:52:34 Asia/Kolkata] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/appInstallation/GenerateToken.php:0
+[04-Jul-2020 15:52:34 Asia/Kolkata] PHP   2. GenerateToken->__construct() /home/codingkloud/public_html/shopify-app/action/appInstallation/GenerateToken.php:65
+[04-Jul-2020 15:52:34 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/codingkloud/public_html/shopify-app/action/appInstallation/GenerateToken.php on line 50
+[04-Jul-2020 15:52:34 Asia/Kolkata] PHP Stack trace:
+[04-Jul-2020 15:52:34 Asia/Kolkata] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/appInstallation/GenerateToken.php:0
+[04-Jul-2020 15:52:34 Asia/Kolkata] PHP   2. GenerateToken->__construct() /home/codingkloud/public_html/shopify-app/action/appInstallation/GenerateToken.php:65
+[04-Jul-2020 15:52:34 Asia/Kolkata] PHP   3. mysqli_query() /home/codingkloud/public_html/shopify-app/action/appInstallation/GenerateToken.php:50
+[04-Jul-2020 16:02:39 Asia/Kolkata] PHP Notice:  Undefined variable: conn in /home/codingkloud/public_html/shopify-app/action/appInstallation/GenerateToken.php on line 48
+[04-Jul-2020 16:02:39 Asia/Kolkata] PHP Stack trace:
+[04-Jul-2020 16:02:39 Asia/Kolkata] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/appInstallation/GenerateToken.php:0
+[04-Jul-2020 16:02:39 Asia/Kolkata] PHP   2. GenerateToken->__construct() /home/codingkloud/public_html/shopify-app/action/appInstallation/GenerateToken.php:63
+[04-Jul-2020 16:02:39 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/codingkloud/public_html/shopify-app/action/appInstallation/GenerateToken.php on line 48
+[04-Jul-2020 16:02:39 Asia/Kolkata] PHP Stack trace:
+[04-Jul-2020 16:02:39 Asia/Kolkata] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/appInstallation/GenerateToken.php:0
+[04-Jul-2020 16:02:39 Asia/Kolkata] PHP   2. GenerateToken->__construct() /home/codingkloud/public_html/shopify-app/action/appInstallation/GenerateToken.php:63
+[04-Jul-2020 16:02:39 Asia/Kolkata] PHP   3. mysqli_query() /home/codingkloud/public_html/shopify-app/action/appInstallation/GenerateToken.php:48
+[04-Jul-2020 10:51:06 UTC] PHP Parse error:  syntax error, unexpected '__construct' (T_STRING), expecting '(' in /home/codingkloud/public_html/shopify-app/action/appInstallation/Config.php on line 3
+[04-Jul-2020 10:53:10 UTC] PHP Parse error:  syntax error, unexpected '__construct' (T_STRING), expecting '(' in /home/codingkloud/public_html/shopify-app/action/appInstallation/Config.php on line 3
+[04-Jul-2020 12:15:19 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/codingkloud/public_html/shopify-app/action/include/GenerateToken.php:41
+Stack trace:
+#0 /home/codingkloud/public_html/shopify-app/action/include/GenerateToken.php(70): GenerateToken->getAccessToken(Object(mysqli))
+#1 {main}
+  thrown in /home/codingkloud/public_html/shopify-app/action/include/GenerateToken.php on line 41
+[04-Jul-2020 12:26:15 UTC] PHP Notice:  Undefined variable: error_code in /home/codingkloud/public_html/shopify-app/action/include/GenerateToken.php on line 13
+[04-Jul-2020 12:26:15 UTC] PHP Stack trace:
+[04-Jul-2020 12:26:15 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/include/GenerateToken.php:0
+[04-Jul-2020 12:26:15 UTC] PHP   2. GenerateToken->getAccessToken() /home/codingkloud/public_html/shopify-app/action/include/GenerateToken.php:67
+[04-Jul-2020 12:56:30 UTC] PHP Notice:  Undefined property: AppInstall::$scopes in /home/codingkloud/public_html/shopify-app/action/include/AppInstall.php on line 20
+[04-Jul-2020 12:56:30 UTC] PHP Stack trace:
+[04-Jul-2020 12:56:30 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/include/AppInstall.php:0
+[04-Jul-2020 12:56:30 UTC] PHP   2. AppInstall->install() /home/codingkloud/public_html/shopify-app/action/include/AppInstall.php:35
+[04-Jul-2020 12:56:51 UTC] PHP Notice:  Undefined property: AppInstall::$scopes in /home/codingkloud/public_html/shopify-app/action/include/AppInstall.php on line 20
+[04-Jul-2020 12:56:51 UTC] PHP Stack trace:
+[04-Jul-2020 12:56:51 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/include/AppInstall.php:0
+[04-Jul-2020 12:56:51 UTC] PHP   2. AppInstall->install() /home/codingkloud/public_html/shopify-app/action/include/AppInstall.php:35
+[04-Jul-2020 12:57:46 UTC] PHP Notice:  Undefined property: AppInstall::$scopes in /home/codingkloud/public_html/shopify-app/action/include/AppInstall.php on line 20
+[04-Jul-2020 12:57:46 UTC] PHP Stack trace:
+[04-Jul-2020 12:57:46 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/include/AppInstall.php:0
+[04-Jul-2020 12:57:46 UTC] PHP   2. AppInstall->install() /home/codingkloud/public_html/shopify-app/action/include/AppInstall.php:36
