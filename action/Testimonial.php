@@ -21,34 +21,51 @@
 
     <!-- Main content -->
     <section class="content">
+      <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-4">
+               <div class="info-box mb-3 bg-warning">
+               <span class="info-box-icon"><i class="fas fa-tag"></i></span>
 
-      <!-- Default box -->
-      <div class="card">
-        <div class="card-header">
-          <h3 class="card-title">Title</h3>
-
-          <div class="card-tools">
-            <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
-              <i class="fas fa-minus"></i></button>
-            <button type="button" class="btn btn-tool" data-card-widget="remove" data-toggle="tooltip" title="Remove">
-              <i class="fas fa-times"></i></button>
+               <div class="info-box-content">
+                <span class="info-box-text">Total Testimonial</span>
+                <span class="info-box-number">5,200</span>
+               </div>
+               <!-- /.info-box-content -->
+               </div>
+              </div>
+              <div class="col-md-4">
+               <div class="info-box mb-3 bg-success">
+                <span class="info-box-icon"><i class="far fa-heart"></i></span>
+                <div class="info-box-content">
+                 <span class="info-box-text">Submitted by Admin</span>
+                 <span class="info-box-number">92,050</span>
+                </div>
+                <!-- /.info-box-content -->
+               </div>
+              </div>
+              <div class="col-md-4">
+                <div class="info-box mb-3 bg-info">
+                <span class="info-box-icon"><i class="far fa-comment"></i></span>
+                <div class="info-box-content">
+                  <span class="info-box-text">Submitted by Clients</span>
+                  <span class="info-box-number">163,921</span>
+                </div>
+               <!-- /.info-box-content -->
+               </div>
+              </div>
+              <!-- /.col -->
+            </div> 
+            <!-- /.card -->
           </div>
-        </div>
-        <div class="card-body">
-          Start creating your amazing application!
-        </div>
-        <!-- /.card-body -->
-        <div class="card-footer">
-          Footer
-        </div>
-        <!-- /.card-footer-->
-      </div>
-      <!-- /.card -->
-
+          <!-- /.col -->
+     </div>
     </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
 <?php require_once('theme/layout/footer.php');?>
+
 
 

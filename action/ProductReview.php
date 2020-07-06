@@ -18,33 +18,105 @@
         </div>
       </div><!-- /.container-fluid -->
     </section>
+     <section class="content">
+      <div class="row">
+          <div class="col-md-12">
+            <div class="row">
 
-    <!-- Main content -->
-    <section class="content">
+              <div class="col-md-3">
+                <!-- USERS LIST -->
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title">Review Widget</h3>
 
-      <!-- Default box -->
-      <div class="card">
-        <div class="card-header">
-          <h3 class="card-title">Title</h3>
+                    <div class="card-tools">
+                      <span class="badge badge-danger"> New </span>
+                    </div>
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body p-0">
+                    
+                  </div>
+                  <!-- /.card-body -->
+                  <div class="card-footer text-center">
+                    <a href="javascript::">Customize-></a>
+                  </div>
+                  <!-- /.card-footer -->
+                </div>
+                <!--/.card -->
+              </div>
+              <div class="col-md-3">
+                <!-- USERS LIST -->
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title">Import Reviews</h3>
 
-          <div class="card-tools">
-            <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
-              <i class="fas fa-minus"></i></button>
-            <button type="button" class="btn btn-tool" data-card-widget="remove" data-toggle="tooltip" title="Remove">
-              <i class="fas fa-times"></i></button>
+                    <div class="card-tools">
+                      <span class="badge badge-danger">New</span>
+                    </div>
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body p-0">
+                    
+                  </div>
+                  <!-- /.card-body -->
+                  <div class="card-footer text-center">
+                    <a href="javascript::">Import Reviews-></a>
+                  </div>
+                  <!-- /.card-footer -->
+                </div>
+                <!--/.card -->
+              </div>
+              <div class="col-md-3">
+                <!-- USERS LIST -->
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title">Export Reviews</h3>
+
+                    <div class="card-tools">
+                      <span class="badge badge-danger"> New</span>
+                    </div>
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body p-0">
+                    
+                  </div>
+                  <!-- /.card-body -->
+                  <div class="card-footer text-center">
+                    <a href="javascript::">Export Reviews-></a>
+                  </div>
+                  <!-- /.card-footer -->
+                </div>
+                <!--/.card -->
+              </div>
+              <div class="col-md-3">
+                <!-- USERS LIST -->
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title">Request Email</h3>
+
+                    <div class="card-tools">
+                      <span class="badge badge-danger"> New</span>
+                    </div>
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body p-0">
+                    
+                  </div>
+                  <!-- /.card-body -->
+                  <div class="card-footer text-center">
+                    <a href="javascript::">Request Email-></a>
+                  </div>
+                  <!-- /.card-footer -->
+                </div>
+                <!--/.card -->
+              </div>
+              <!-- /.col -->
+            </div> 
+            <!-- /.card -->
           </div>
-        </div>
-        <div class="card-body">
-          Start creating your amazing application!
-        </div>
-        <!-- /.card-body -->
-        <div class="card-footer">
-          Footer
-        </div>
-        <!-- /.card-footer-->
-      </div>
-      <!-- /.card -->
-
+          <!-- /.col -->
+     </div>
     </section>
     <!-- /.content -->
   </div>
