@@ -1,16 +1,12 @@
 <?php
 
-function shopify_call($token, $shop, $api_endpoint, $query = array(), $method = 'GET', $request_headers = array()) {
-    
+class ShopifyFunction{
+  public function shopify_call($token, $shop, $api_endpoint, $query = array(), $method = 'GET', $request_headers = array()) 
+  {
 	// Build URL
 	$url = "https://" . $shop . ".myshopify.com" . $api_endpoint;
 
-	// echo $url."<br>";
-
 	if (!is_null($query) && in_array($method, array('GET', 	'DELETE'))) $url = $url . "?" . http_build_query($query);
-
-
-
 	// Configure cURL
 	$curl = curl_init($url);
 	curl_setopt($curl, CURLOPT_HEADER, TRUE);
@@ -18,8 +14,6 @@ function shopify_call($token, $shop, $api_endpoint, $query = array(), $method = 
 	curl_setopt($curl, CURLOPT_FOLLOWLOCATION, TRUE);
 	curl_setopt($curl, CURLOPT_MAXREDIRS, 3);
 	curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
-	// curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 3);
-	// curl_setopt($curl, CURLOPT_SSLVERSION, 3);
 	curl_setopt($curl, CURLOPT_USERAGENT, 'My New Shopify App v.1');
 	curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 30);
 	curl_setopt($curl, CURLOPT_TIMEOUT, 30);
@@ -71,3 +65,8 @@ function shopify_call($token, $shop, $api_endpoint, $query = array(), $method = 
 	}
     
 }
+}
+
+$shopifyObj= new ShopifyFunction();
+// install function responsible for application installation into store.
+$shopifyObj->shopify_call();
