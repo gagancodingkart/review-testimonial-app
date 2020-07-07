@@ -8,8 +8,8 @@ class AppInstall{
     // basic credentials definition
     $error                   = new ErrorCode();
     $this->error_code        = $error->getCodes();  
-    $this->api_key			 = "afd1509f3bb72237f9d44c13fd02ff42";
-	$this->scope = "read_products,write_products,read_content,write_content,read_themes,write_themes,read_customers,write_customers,read_analytics";
+    $this->api_key			     = "afd1509f3bb72237f9d44c13fd02ff42";
+   	$this->scope             = "read_products,write_products,read_content,write_content,read_themes,write_themes,read_customers,write_customers,read_analytics,read_script_tags,write_script_tags";
     $this->redirect_uri      = "http://codingkloud.com/shopify-app/action/include/GenerateToken.php";
   }
   public function install(){     

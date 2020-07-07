@@ -5,7 +5,7 @@ class ShopifyFunction{
   {
 	// Build URL
 	$url = "https://" . $shop . ".myshopify.com" . $api_endpoint;
-
+// echo $url."<br>";
 	if (!is_null($query) && in_array($method, array('GET', 	'DELETE'))) $url = $url . "?" . http_build_query($query);
 	// Configure cURL
 	$curl = curl_init($url);
@@ -68,5 +68,4 @@ class ShopifyFunction{
 }
 
 $shopifyObj= new ShopifyFunction();
-// install function responsible for application installation into store.
-$shopifyObj->shopify_call();
+	

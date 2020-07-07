@@ -111,6 +111,11 @@
                 </div>
                 <!--/.card -->
               </div>
+              <?php
+ include('include/ShopifyFunction.php');
+// print_r("hhhhhhhhhhhhhhhhh");
+
+?>
               <!-- /.col -->
             </div> 
             <!-- /.card -->
@@ -121,4 +126,46 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-<?php include('layout/footer.php');?>
+
+<?php include('theme/layout/footer.php');?>
+<?php include('include/ShopifyFunction.php');
+  $api_url   ="/admin/api/2020-07/script_tags.json";
+  $token     ="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";
+  $shop_name ="jayka-new";
+  $checkScript['reviewJsUrl']= "https://codingkloud.com/shopify-app/action/include/assets/updreview.js";
+  $checkScript['token']      =$token;
+  $checkScript['shop_name']  =$shop_name;
+  $checkScriptUpload =checkScriptUpload($shopifyObj,$checkScript);
+   if($checkScriptUpload!='exists'){
+  $scriptDetails = array('script_tag' => array(
+                        'event' => "onload", 
+                        'src' => $checkScript['reviewJsUrl']
+                    )
+        );
+  $uploadScript = $shopifyObj->shopify_call($token,$shop_name ,"/admin/api/2020-07/script_tags.json", $scriptDetails, 'POST'); 
+  print_r($uploadScript);
+   }
+   
+     function checkScriptUpload($shopifyObj,$checkScript)
+     {  echo "<pre>";
+       $count = $shopifyObj->shopify_call($checkScript['token'],$checkScript['shop_name'],"/admin/api/2020-07/script_tags.json", $array, 'GET');  
+       $response = json_decode($count['response'], JSON_PRETTY_PRINT); 
+       if($response['script_tags']){
+          for($i=0;$i<sizeof($response['script_tags']);$i++)
+          {
+            $script_url=(string)$response['script_tags'][$i]['src'];
+          if($script_url==$checkScript['reviewJsUrl']){
+             $scriptDetails = array('script_tag' => array(
+                        'id' => 132399890477, 
+                        'src' => 'https://codingkloud.com/shopify-app/action/include/assets/updreview.js'
+                    )
+        );
+            $ScriptUpdate = $shopifyObj->shopify_call($checkScript['token'],$checkScript['shop_name'],"/admin/api/2020-04/script_tags/132399890477.json", $scriptDetails, 'PUT');  
+            print_r($ScriptUpdate);
+            echo"already exists";
+          return 'exists';
+         }
+          }
+        }
+    }
+    ?>
