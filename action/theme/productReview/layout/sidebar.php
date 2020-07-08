@@ -2,9 +2,9 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="theme/layout/images/t.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+      <img src="layout/images/r.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">Testimonial</span>
+      <span class="brand-text font-weight-light">Product Review</span>
     </a>
 
     <!-- Sidebar -->
@@ -25,7 +25,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview menu-open">
-            <a href="#" class="nav-link active">
+            <a href="index.php" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -34,18 +34,19 @@
           </li>
 
           <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link">
-              <i class="nav-icon fa fa-plus"></i>
+            <a href="manageReview.php" class="nav-link">
+              <i class="nav-icon fa fa-cogs"></i>
               <p>
-                Add New Testimonial
+                Manage Reviews
               </p>
             </a>
           </li>
+         
           <li class="nav-item">
             <a href="pages/widgets.html" class="nav-link">
-              <i class="nav-icon fa fa-list"></i>
+              <i class="nav-icon fa fa-envelope"></i>
               <p>
-                View All Testimonials
+                Review Request Email
               </p>
             </a>
           </li>
@@ -59,9 +60,25 @@
           </li>
           <li class="nav-item">
             <a href="pages/widgets.html" class="nav-link">
+              <i class="nav-icon fa fa-cube"></i>
+              <p>
+                Export Review
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/widgets.html" class="nav-link">
               <i class="nav-icon fa fa-cubes"></i>
               <p>
-               Import Testmonials
+                Import Review
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/widgets.html" class="nav-link">
+              <i class="nav-icon fa fa-question-circle"></i>
+              <p>
+                Question & Answer
               </p>
             </a>
           </li>
@@ -73,7 +90,7 @@
               </p>
             </a>
           </li>
-          <li class="nav-item">
+            <li class="nav-item">
             <a href="pages/widgets.html" class="nav-link">
               <i class="nav-icon fa fa-puzzle-piece"></i>
               <p>
@@ -81,6 +98,7 @@
               </p>
             </a>
           </li>
+          
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

@@ -1,0 +1,143 @@
+[08-Jul-2020 11:58:21 UTC] PHP Warning:  require(layout/internalSidebar.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:58:21 UTC] PHP Stack trace:
+[08-Jul-2020 11:58:21 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 11:58:21 UTC] PHP Fatal error:  require(): Failed opening required 'layout/internalSidebar.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:58:21 UTC] PHP Stack trace:
+[08-Jul-2020 11:58:21 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 11:58:35 UTC] PHP Warning:  require(layout/internalSidebar.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:58:35 UTC] PHP Stack trace:
+[08-Jul-2020 11:58:35 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 11:58:35 UTC] PHP Fatal error:  require(): Failed opening required 'layout/internalSidebar.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:58:35 UTC] PHP Stack trace:
+[08-Jul-2020 11:58:35 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 11:58:38 UTC] PHP Warning:  require(layout/internalSidebar.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:58:38 UTC] PHP Stack trace:
+[08-Jul-2020 11:58:38 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 11:58:38 UTC] PHP Fatal error:  require(): Failed opening required 'layout/internalSidebar.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:58:38 UTC] PHP Stack trace:
+[08-Jul-2020 11:58:38 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 11:59:14 UTC] PHP Warning:  require(layout/internalSidebar.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:59:14 UTC] PHP Stack trace:
+[08-Jul-2020 11:59:14 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 11:59:14 UTC] PHP Fatal error:  require(): Failed opening required 'layout/internalSidebar.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:59:14 UTC] PHP Stack trace:
+[08-Jul-2020 11:59:14 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 11:59:17 UTC] PHP Warning:  require(layout/internalSidebar.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:59:17 UTC] PHP Stack trace:
+[08-Jul-2020 11:59:17 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 11:59:17 UTC] PHP Fatal error:  require(): Failed opening required 'layout/internalSidebar.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:59:17 UTC] PHP Stack trace:
+[08-Jul-2020 11:59:17 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 11:59:18 UTC] PHP Warning:  require(layout/internalSidebar.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:59:18 UTC] PHP Stack trace:
+[08-Jul-2020 11:59:18 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 11:59:18 UTC] PHP Fatal error:  require(): Failed opening required 'layout/internalSidebar.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:59:18 UTC] PHP Stack trace:
+[08-Jul-2020 11:59:18 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 11:59:19 UTC] PHP Warning:  require(layout/internalSidebar.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:59:19 UTC] PHP Stack trace:
+[08-Jul-2020 11:59:19 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 11:59:19 UTC] PHP Fatal error:  require(): Failed opening required 'layout/internalSidebar.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:59:19 UTC] PHP Stack trace:
+[08-Jul-2020 11:59:19 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 11:59:22 UTC] PHP Warning:  require(layout/internalSidebar.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:59:22 UTC] PHP Stack trace:
+[08-Jul-2020 11:59:22 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 11:59:22 UTC] PHP Fatal error:  require(): Failed opening required 'layout/internalSidebar.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:59:22 UTC] PHP Stack trace:
+[08-Jul-2020 11:59:22 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 11:59:56 UTC] PHP Warning:  require(layout/internalSidebar.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:59:56 UTC] PHP Stack trace:
+[08-Jul-2020 11:59:56 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 11:59:56 UTC] PHP Fatal error:  require(): Failed opening required 'layout/internalSidebar.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 4
+[08-Jul-2020 11:59:56 UTC] PHP Stack trace:
+[08-Jul-2020 11:59:56 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 12:10:24 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 2
+[08-Jul-2020 12:24:22 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php on line 137
+[08-Jul-2020 12:24:22 UTC] PHP Stack trace:
+[08-Jul-2020 12:24:22 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:0
+[08-Jul-2020 12:24:22 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:126
+[08-Jul-2020 12:24:34 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php on line 137
+[08-Jul-2020 12:24:34 UTC] PHP Stack trace:
+[08-Jul-2020 12:24:34 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:0
+[08-Jul-2020 12:24:34 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:126
+[08-Jul-2020 12:24:39 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php on line 137
+[08-Jul-2020 12:24:39 UTC] PHP Stack trace:
+[08-Jul-2020 12:24:39 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:0
+[08-Jul-2020 12:24:39 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:126
+[08-Jul-2020 12:25:07 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php on line 137
+[08-Jul-2020 12:25:07 UTC] PHP Stack trace:
+[08-Jul-2020 12:25:07 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:0
+[08-Jul-2020 12:25:07 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:126
+[08-Jul-2020 12:28:51 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php on line 137
+[08-Jul-2020 12:28:51 UTC] PHP Stack trace:
+[08-Jul-2020 12:28:51 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:0
+[08-Jul-2020 12:28:51 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:126
+[08-Jul-2020 12:29:17 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php on line 137
+[08-Jul-2020 12:29:17 UTC] PHP Stack trace:
+[08-Jul-2020 12:29:17 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:0
+[08-Jul-2020 12:29:17 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:126
+[08-Jul-2020 12:32:41 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php on line 137
+[08-Jul-2020 12:32:41 UTC] PHP Stack trace:
+[08-Jul-2020 12:32:41 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:0
+[08-Jul-2020 12:32:41 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:126
+[08-Jul-2020 12:32:44 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php on line 137
+[08-Jul-2020 12:32:44 UTC] PHP Stack trace:
+[08-Jul-2020 12:32:44 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:0
+[08-Jul-2020 12:32:44 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:126
+[08-Jul-2020 12:34:21 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php on line 137
+[08-Jul-2020 12:34:21 UTC] PHP Stack trace:
+[08-Jul-2020 12:34:21 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:0
+[08-Jul-2020 12:34:21 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:126
+[08-Jul-2020 12:34:24 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php on line 137
+[08-Jul-2020 12:34:24 UTC] PHP Stack trace:
+[08-Jul-2020 12:34:24 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:0
+[08-Jul-2020 12:34:24 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:126
+[08-Jul-2020 12:34:32 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php on line 137
+[08-Jul-2020 12:34:32 UTC] PHP Stack trace:
+[08-Jul-2020 12:34:32 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:0
+[08-Jul-2020 12:34:32 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/ProductReview.php:126
+[08-Jul-2020 12:37:06 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[08-Jul-2020 12:37:06 UTC] PHP Stack trace:
+[08-Jul-2020 12:37:06 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[08-Jul-2020 12:37:06 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[08-Jul-2020 12:39:12 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[08-Jul-2020 12:39:12 UTC] PHP Stack trace:
+[08-Jul-2020 12:39:12 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[08-Jul-2020 12:39:12 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[08-Jul-2020 12:40:10 UTC] PHP Warning:  require(layout/internalHeader.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 2
+[08-Jul-2020 12:40:10 UTC] PHP Stack trace:
+[08-Jul-2020 12:40:10 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 12:40:10 UTC] PHP Fatal error:  require(): Failed opening required 'layout/internalHeader.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 2
+[08-Jul-2020 12:40:10 UTC] PHP Stack trace:
+[08-Jul-2020 12:40:10 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 12:40:15 UTC] PHP Warning:  require(layout/internalHeader.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 2
+[08-Jul-2020 12:40:15 UTC] PHP Stack trace:
+[08-Jul-2020 12:40:15 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 12:40:15 UTC] PHP Fatal error:  require(): Failed opening required 'layout/internalHeader.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php on line 2
+[08-Jul-2020 12:40:15 UTC] PHP Stack trace:
+[08-Jul-2020 12:40:15 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/manageReview.php:0
+[08-Jul-2020 12:40:52 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[08-Jul-2020 12:40:52 UTC] PHP Stack trace:
+[08-Jul-2020 12:40:52 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[08-Jul-2020 12:40:52 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[08-Jul-2020 13:00:19 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[08-Jul-2020 13:00:19 UTC] PHP Stack trace:
+[08-Jul-2020 13:00:19 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[08-Jul-2020 13:00:19 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[08-Jul-2020 14:54:36 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[08-Jul-2020 14:54:36 UTC] PHP Stack trace:
+[08-Jul-2020 14:54:36 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[08-Jul-2020 14:54:36 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[08-Jul-2020 14:55:21 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[08-Jul-2020 14:55:21 UTC] PHP Stack trace:
+[08-Jul-2020 14:55:21 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[08-Jul-2020 14:55:21 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[08-Jul-2020 14:55:38 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[08-Jul-2020 14:55:38 UTC] PHP Stack trace:
+[08-Jul-2020 14:55:38 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[08-Jul-2020 14:55:38 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[08-Jul-2020 14:58:51 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[08-Jul-2020 14:58:51 UTC] PHP Stack trace:
+[08-Jul-2020 14:58:51 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[08-Jul-2020 14:58:51 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126

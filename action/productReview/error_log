@@ -1,0 +1,172 @@
+[07-Jul-2020 11:29:29 UTC] PHP Warning:  require_once(../include/Config.php.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 5
+[07-Jul-2020 11:29:29 UTC] PHP Stack trace:
+[07-Jul-2020 11:29:29 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:29:29 UTC] PHP Fatal error:  require_once(): Failed opening required '../include/Config.php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 5
+[07-Jul-2020 11:29:29 UTC] PHP Stack trace:
+[07-Jul-2020 11:29:29 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:29:49 UTC] PHP Warning:  require_once(../include/Config.php.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 5
+[07-Jul-2020 11:29:49 UTC] PHP Stack trace:
+[07-Jul-2020 11:29:49 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:29:49 UTC] PHP Fatal error:  require_once(): Failed opening required '../include/Config.php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 5
+[07-Jul-2020 11:29:49 UTC] PHP Stack trace:
+[07-Jul-2020 11:29:49 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:29:50 UTC] PHP Warning:  require_once(../include/Config.php.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 5
+[07-Jul-2020 11:29:50 UTC] PHP Stack trace:
+[07-Jul-2020 11:29:50 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:29:50 UTC] PHP Fatal error:  require_once(): Failed opening required '../include/Config.php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 5
+[07-Jul-2020 11:29:50 UTC] PHP Stack trace:
+[07-Jul-2020 11:29:50 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:29:51 UTC] PHP Warning:  require_once(../include/Config.php.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 5
+[07-Jul-2020 11:29:51 UTC] PHP Stack trace:
+[07-Jul-2020 11:29:51 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:29:51 UTC] PHP Fatal error:  require_once(): Failed opening required '../include/Config.php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 5
+[07-Jul-2020 11:29:51 UTC] PHP Stack trace:
+[07-Jul-2020 11:29:51 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:29:53 UTC] PHP Warning:  require_once(../include/Config.php.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 5
+[07-Jul-2020 11:29:53 UTC] PHP Stack trace:
+[07-Jul-2020 11:29:53 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:29:53 UTC] PHP Fatal error:  require_once(): Failed opening required '../include/Config.php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 5
+[07-Jul-2020 11:29:53 UTC] PHP Stack trace:
+[07-Jul-2020 11:29:53 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:30:26 UTC] PHP Warning:  require_once(../include/Config.php.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 6
+[07-Jul-2020 11:30:26 UTC] PHP Stack trace:
+[07-Jul-2020 11:30:26 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:30:26 UTC] PHP Fatal error:  require_once(): Failed opening required '../include/Config.php.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 6
+[07-Jul-2020 11:30:26 UTC] PHP Stack trace:
+[07-Jul-2020 11:30:26 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:31:04 UTC] PHP Fatal error:  Cannot declare class ErrorCode, because the name is already in use in /home/codingkloud/public_html/shopify-app/action/include/ErrorCode.php on line 2
+[07-Jul-2020 11:31:04 UTC] PHP Stack trace:
+[07-Jul-2020 11:31:04 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:31:04 UTC] PHP   2. include() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:7
+[07-Jul-2020 11:31:08 UTC] PHP Fatal error:  Cannot declare class ErrorCode, because the name is already in use in /home/codingkloud/public_html/shopify-app/action/include/ErrorCode.php on line 2
+[07-Jul-2020 11:31:08 UTC] PHP Stack trace:
+[07-Jul-2020 11:31:08 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:31:08 UTC] PHP   2. include() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:7
+[07-Jul-2020 11:42:55 UTC] PHP Notice:  Undefined index: shop in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 22
+[07-Jul-2020 11:42:55 UTC] PHP Stack trace:
+[07-Jul-2020 11:42:55 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:42:55 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:40
+[07-Jul-2020 11:54:54 UTC] PHP Notice:  Undefined index: customer_name in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 22
+[07-Jul-2020 11:54:54 UTC] PHP Stack trace:
+[07-Jul-2020 11:54:54 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:54:54 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:46
+[07-Jul-2020 11:54:54 UTC] PHP Notice:  Undefined index: customer_name in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 26
+[07-Jul-2020 11:54:54 UTC] PHP Stack trace:
+[07-Jul-2020 11:54:54 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:54:54 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:46
+[07-Jul-2020 11:56:30 UTC] PHP Notice:  Undefined index: customer_name in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 22
+[07-Jul-2020 11:56:30 UTC] PHP Stack trace:
+[07-Jul-2020 11:56:30 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:56:30 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:46
+[07-Jul-2020 11:56:30 UTC] PHP Notice:  Undefined index: customer_name in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 24
+[07-Jul-2020 11:56:30 UTC] PHP Stack trace:
+[07-Jul-2020 11:56:30 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:56:30 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:46
+[07-Jul-2020 11:56:30 UTC] PHP Notice:  Undefined index: customer_name in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 26
+[07-Jul-2020 11:56:30 UTC] PHP Stack trace:
+[07-Jul-2020 11:56:30 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 11:56:30 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:46
+[07-Jul-2020 12:04:50 UTC] PHP Notice:  Undefined index: file in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 25
+[07-Jul-2020 12:04:50 UTC] PHP Stack trace:
+[07-Jul-2020 12:04:50 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 12:04:50 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:46
+[07-Jul-2020 12:48:05 UTC] PHP Notice:  Undefined index: file in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 25
+[07-Jul-2020 12:48:05 UTC] PHP Stack trace:
+[07-Jul-2020 12:48:05 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 12:48:05 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:48
+[07-Jul-2020 13:15:49 UTC] PHP Notice:  Undefined index: customer_name in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 22
+[07-Jul-2020 13:15:49 UTC] PHP Stack trace:
+[07-Jul-2020 13:15:49 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:15:49 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[07-Jul-2020 13:15:49 UTC] PHP Notice:  Undefined index: review_title in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 23
+[07-Jul-2020 13:15:49 UTC] PHP Stack trace:
+[07-Jul-2020 13:15:49 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:15:49 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[07-Jul-2020 13:15:49 UTC] PHP Notice:  Undefined index: customer_email in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 24
+[07-Jul-2020 13:15:49 UTC] PHP Stack trace:
+[07-Jul-2020 13:15:49 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:15:49 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[07-Jul-2020 13:15:49 UTC] PHP Notice:  Undefined index: subject in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 26
+[07-Jul-2020 13:15:49 UTC] PHP Stack trace:
+[07-Jul-2020 13:15:49 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:15:49 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[07-Jul-2020 13:15:49 UTC] PHP Notice:  Undefined index: product_id in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 27
+[07-Jul-2020 13:15:49 UTC] PHP Stack trace:
+[07-Jul-2020 13:15:49 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:15:49 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[07-Jul-2020 13:15:49 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 29
+[07-Jul-2020 13:15:49 UTC] PHP Stack trace:
+[07-Jul-2020 13:15:49 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:15:49 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[07-Jul-2020 13:15:51 UTC] PHP Notice:  Undefined index: customer_name in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 22
+[07-Jul-2020 13:15:51 UTC] PHP Stack trace:
+[07-Jul-2020 13:15:51 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:15:51 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[07-Jul-2020 13:15:51 UTC] PHP Notice:  Undefined index: review_title in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 23
+[07-Jul-2020 13:15:51 UTC] PHP Stack trace:
+[07-Jul-2020 13:15:51 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:15:51 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[07-Jul-2020 13:15:51 UTC] PHP Notice:  Undefined index: customer_email in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 24
+[07-Jul-2020 13:15:51 UTC] PHP Stack trace:
+[07-Jul-2020 13:15:51 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:15:51 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[07-Jul-2020 13:15:51 UTC] PHP Notice:  Undefined index: subject in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 26
+[07-Jul-2020 13:15:51 UTC] PHP Stack trace:
+[07-Jul-2020 13:15:51 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:15:51 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[07-Jul-2020 13:15:51 UTC] PHP Notice:  Undefined index: product_id in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 27
+[07-Jul-2020 13:15:51 UTC] PHP Stack trace:
+[07-Jul-2020 13:15:51 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:15:51 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[07-Jul-2020 13:15:51 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 29
+[07-Jul-2020 13:15:51 UTC] PHP Stack trace:
+[07-Jul-2020 13:15:51 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:15:51 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[07-Jul-2020 13:16:08 UTC] PHP Notice:  Undefined index: customer_name in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 22
+[07-Jul-2020 13:16:08 UTC] PHP Stack trace:
+[07-Jul-2020 13:16:08 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:16:08 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[07-Jul-2020 13:16:08 UTC] PHP Notice:  Undefined index: review_title in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 23
+[07-Jul-2020 13:16:08 UTC] PHP Stack trace:
+[07-Jul-2020 13:16:08 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:16:08 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[07-Jul-2020 13:16:08 UTC] PHP Notice:  Undefined index: customer_email in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 24
+[07-Jul-2020 13:16:08 UTC] PHP Stack trace:
+[07-Jul-2020 13:16:08 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:16:08 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[07-Jul-2020 13:16:08 UTC] PHP Notice:  Undefined index: subject in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 26
+[07-Jul-2020 13:16:08 UTC] PHP Stack trace:
+[07-Jul-2020 13:16:08 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:16:08 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[07-Jul-2020 13:16:08 UTC] PHP Notice:  Undefined index: product_id in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 27
+[07-Jul-2020 13:16:08 UTC] PHP Stack trace:
+[07-Jul-2020 13:16:08 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:16:08 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[07-Jul-2020 13:16:08 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 29
+[07-Jul-2020 13:16:08 UTC] PHP Stack trace:
+[07-Jul-2020 13:16:08 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[07-Jul-2020 13:16:08 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:54
+[08-Jul-2020 09:43:08 UTC] PHP Notice:  Undefined index: rating in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 21
+[08-Jul-2020 09:43:08 UTC] PHP Stack trace:
+[08-Jul-2020 09:43:08 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[08-Jul-2020 09:43:08 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:40
+[08-Jul-2020 09:44:43 UTC] PHP Notice:  Undefined index: rating in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 21
+[08-Jul-2020 09:44:43 UTC] PHP Stack trace:
+[08-Jul-2020 09:44:43 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[08-Jul-2020 09:44:43 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:40
+[08-Jul-2020 09:46:37 UTC] PHP Notice:  Undefined index: rating in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 20
+[08-Jul-2020 09:46:37 UTC] PHP Stack trace:
+[08-Jul-2020 09:46:37 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[08-Jul-2020 09:46:37 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:39
+[08-Jul-2020 10:13:44 UTC] PHP Notice:  Undefined index: rating in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 20
+[08-Jul-2020 10:13:44 UTC] PHP Stack trace:
+[08-Jul-2020 10:13:44 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[08-Jul-2020 10:13:44 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:39
+[08-Jul-2020 10:44:48 UTC] PHP Notice:  Undefined index: product_image in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 22
+[08-Jul-2020 10:44:48 UTC] PHP Stack trace:
+[08-Jul-2020 10:44:48 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[08-Jul-2020 10:44:48 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:39
+[08-Jul-2020 14:58:42 UTC] PHP Notice:  Undefined index: product_image in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 22
+[08-Jul-2020 14:58:42 UTC] PHP Stack trace:
+[08-Jul-2020 14:58:42 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
+[08-Jul-2020 14:58:42 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:39

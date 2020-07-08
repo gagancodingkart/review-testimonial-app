@@ -1,5 +1,5 @@
-<?php require_once('theme/layout/header.php');?>
-<?php require_once('theme/layout/testimonialSidebar.php');?>
+<?php require_once('theme/testimonial/layout/header.php');?>
+<?php require_once('theme/testimonial/layout/testimonialSidebar.php');?>
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -65,7 +65,7 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-<?php require_once('theme/layout/footer.php');?>
+<?php require_once('theme/testimonial/layout/footer.php');?>
 
 
 
