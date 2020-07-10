@@ -141,3 +141,103 @@
 [08-Jul-2020 14:58:51 UTC] PHP Stack trace:
 [08-Jul-2020 14:58:51 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
 [08-Jul-2020 14:58:51 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[08-Jul-2020 15:10:33 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[08-Jul-2020 15:10:33 UTC] PHP Stack trace:
+[08-Jul-2020 15:10:33 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[08-Jul-2020 15:10:33 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[08-Jul-2020 15:10:47 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[08-Jul-2020 15:10:47 UTC] PHP Stack trace:
+[08-Jul-2020 15:10:47 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[08-Jul-2020 15:10:47 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[08-Jul-2020 15:13:31 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[08-Jul-2020 15:13:31 UTC] PHP Stack trace:
+[08-Jul-2020 15:13:31 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[08-Jul-2020 15:13:31 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[08-Jul-2020 15:14:06 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[08-Jul-2020 15:14:06 UTC] PHP Stack trace:
+[08-Jul-2020 15:14:06 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[08-Jul-2020 15:14:06 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[09-Jul-2020 04:33:27 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[09-Jul-2020 04:33:27 UTC] PHP Stack trace:
+[09-Jul-2020 04:33:27 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[09-Jul-2020 04:33:27 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[09-Jul-2020 08:50:08 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[09-Jul-2020 08:50:08 UTC] PHP Stack trace:
+[09-Jul-2020 08:50:08 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[09-Jul-2020 08:50:08 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[09-Jul-2020 08:50:29 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[09-Jul-2020 08:50:29 UTC] PHP Stack trace:
+[09-Jul-2020 08:50:29 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[09-Jul-2020 08:50:29 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[09-Jul-2020 08:52:11 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[09-Jul-2020 08:52:11 UTC] PHP Stack trace:
+[09-Jul-2020 08:52:11 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[09-Jul-2020 08:52:11 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[09-Jul-2020 08:57:57 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[09-Jul-2020 08:57:57 UTC] PHP Stack trace:
+[09-Jul-2020 08:57:57 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[09-Jul-2020 08:57:57 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[09-Jul-2020 08:58:02 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[09-Jul-2020 08:58:02 UTC] PHP Stack trace:
+[09-Jul-2020 08:58:02 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[09-Jul-2020 08:58:02 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[10-Jul-2020 04:43:30 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[10-Jul-2020 04:43:30 UTC] PHP Stack trace:
+[10-Jul-2020 04:43:30 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[10-Jul-2020 04:43:30 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[10-Jul-2020 04:43:37 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[10-Jul-2020 04:43:37 UTC] PHP Stack trace:
+[10-Jul-2020 04:43:37 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[10-Jul-2020 04:43:37 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[10-Jul-2020 04:48:21 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[10-Jul-2020 04:48:21 UTC] PHP Stack trace:
+[10-Jul-2020 04:48:21 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[10-Jul-2020 04:48:21 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[10-Jul-2020 04:48:24 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[10-Jul-2020 04:48:24 UTC] PHP Stack trace:
+[10-Jul-2020 04:48:24 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[10-Jul-2020 04:48:24 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[10-Jul-2020 08:35:20 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[10-Jul-2020 08:35:20 UTC] PHP Stack trace:
+[10-Jul-2020 08:35:20 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[10-Jul-2020 08:35:20 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[10-Jul-2020 08:35:23 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[10-Jul-2020 08:35:23 UTC] PHP Stack trace:
+[10-Jul-2020 08:35:23 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[10-Jul-2020 08:35:23 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[10-Jul-2020 08:42:16 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[10-Jul-2020 08:42:16 UTC] PHP Stack trace:
+[10-Jul-2020 08:42:16 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[10-Jul-2020 08:42:16 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[10-Jul-2020 09:03:04 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[10-Jul-2020 09:03:04 UTC] PHP Stack trace:
+[10-Jul-2020 09:03:04 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[10-Jul-2020 09:03:04 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[10-Jul-2020 11:52:14 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[10-Jul-2020 11:52:14 UTC] PHP Stack trace:
+[10-Jul-2020 11:52:14 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[10-Jul-2020 11:52:14 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[10-Jul-2020 12:41:48 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[10-Jul-2020 12:41:48 UTC] PHP Stack trace:
+[10-Jul-2020 12:41:48 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[10-Jul-2020 12:41:48 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[10-Jul-2020 12:46:24 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[10-Jul-2020 12:46:24 UTC] PHP Stack trace:
+[10-Jul-2020 12:46:24 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[10-Jul-2020 12:46:24 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[10-Jul-2020 13:04:31 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[10-Jul-2020 13:04:31 UTC] PHP Stack trace:
+[10-Jul-2020 13:04:31 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[10-Jul-2020 13:04:31 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[10-Jul-2020 13:06:49 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[10-Jul-2020 13:06:49 UTC] PHP Stack trace:
+[10-Jul-2020 13:06:49 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[10-Jul-2020 13:06:49 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+[10-Jul-2020 13:06:58 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/installation.php on line 137
+[10-Jul-2020 13:06:58 UTC] PHP Stack trace:
+[10-Jul-2020 13:06:58 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/installation.php:0
+[10-Jul-2020 13:06:58 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/installation.php:126
+[10-Jul-2020 13:45:03 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
+[10-Jul-2020 13:45:03 UTC] PHP Stack trace:
+[10-Jul-2020 13:45:03 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
+[10-Jul-2020 13:45:03 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126

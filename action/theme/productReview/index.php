@@ -120,7 +120,7 @@
          $api_url   ="/admin/api/2020-07/script_tags.json";
          $token     ="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";
          $shop_name ="jayka-new";
-         $checkScript['reviewJsUrl']= "https://codingkloud.com/shopify-app/action/include/assets/rev.js";
+         $checkScript['reviewJsUrl']= "https://codingkloud.com/shopify-app/action/include/assets/review.js";
          $checkScript['token']      =$token;
          $checkScript['shop_name']  =$shop_name;
          $checkScriptUpload =checkScriptUpload($shopifyObj,$checkScript);
@@ -144,7 +144,7 @@
                     $script_id=(int)$response['script_tags'][$i]['id'];
                       $scriptDetails = array('script_tag' => array(
                                              'id' =>  $script_id, 
-                                             'src' => 'https://codingkloud.com/shopify-app/action/include/assets/rev.js'
+                                             'src' => 'https://codingkloud.com/shopify-app/action/include/assets/review.js'
                                             )
                                         );
                       $ScriptUpdate = $shopifyObj->shopify_call($checkScript['token'],$checkScript['shop_name'],"/admin/api/2020-04/script_tags/".$script_id.".json", $scriptDetails, 'PUT');  

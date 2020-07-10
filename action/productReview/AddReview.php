@@ -18,11 +18,11 @@ class AddReview{
       $reviewer_email       = $_POST['customer_email'];
       $reviewer_subject     = $_POST['subject'];
       $rating               = $_POST['rating'];
-      $product_id           = $_POST['product_id'];
+      $prod_id              = $_POST['product_id'];
       $product_image        = $_POST['product_image'];
       $request_at           = date("Y-m-d H:i:s");
       $shop_encrypt_address = md5($_SERVER['HTTP_ORIGIN']);
-      $reviewStore          ="INSERT INTO product_review(rating,shop_encrypt_address,reviewer_name,title,customer_email,subject_description,product_id,status,created_at,review_image) VALUES ('$rating','$shop_encrypt_address','$reviewer_name','$reviewer_title','$reviewer_email','$reviewer_subject','$product_id','Unpublished','$request_at','$product_image')";
+      $reviewStore          ="INSERT INTO product_review(rating,shop_encrypt_address,reviewer_name,title,customer_email,subject_description,status,created_at,review_image,product_id) VALUES ('$rating','$shop_encrypt_address','$reviewer_name','$reviewer_title','$reviewer_email','$reviewer_subject','Unpublished','$request_at','$product_image','$prod_id')";
      $res                 =mysqli_query($conn,$reviewStore);
      header("Location:".$_SERVER['HTTP_REFERER'] ); /* Redirect browser */
   	}catch(Exception $e){

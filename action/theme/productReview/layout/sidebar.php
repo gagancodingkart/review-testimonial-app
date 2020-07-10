@@ -51,7 +51,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link">
+            <a href="installation.php" class="nav-link">
               <i class="nav-icon fa fa-code"></i>
               <p>
                 Installation process

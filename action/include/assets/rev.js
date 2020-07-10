@@ -1,8 +1,72 @@
 
 
-$(document).ready(function() {
+function getRatting(){
   var product_id= jQuery('#leave_review').attr('data-product-id').toString();
+   loadRatings = [ { "action": "loadRatings","product_id":product_id}];
+    $.ajax({
+          type : "POST",
+          dataType: "json",
+          url  : "http://codingkloud.com/shopify-app/action/productReview/ManageReviews.php",
+          data : { data: JSON.stringify(loadRatings) },
+          success : function( response ) {
+             // var result=jQuery.parseJSON(response);
+           
+           return response;
+            }
+        });
+}
+
+
+$(document).ready(function() {
+
+  var product_id= jQuery('#leave_review').attr('data-product-id').toString();
+  var ratingRes = getRatting();
+  console.log(ratingRes);
   var thtml='';
+  thtml+='<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">';
+  thtml+='<div class="row-12 cart">';
+  thtml+='<div class="col-md-5" style="float:left"><h2>Star Rating</h2>';
+  thtml+='<span class="fa fa-star checked"></span>';
+  thtml+='<span class="fa fa-star checked"></span>';
+  thtml+='<span class="fa fa-star checked"></span>';
+  thtml+='<span class="fa fa-star checked"></span>';
+  thtml+='<span class="fa fa-star checked"></span>';
+  thtml+='<span class="fa fa-star checked"></span>&nbsp; (1)<br>';
+
+  thtml+='<span class="fa fa-star checked"></span>';
+  thtml+='<span class="fa fa-star checked"></span>';
+  thtml+='<span class="fa fa-star checked"></span>';
+  thtml+='<span class="fa fa-star checked"></span>';
+  thtml+='<span class="fa fa-star"></span>';
+  thtml+='<span class="fa fa-star"></span>&nbsp;(2) <br>';
+
+  thtml+='<span class="fa fa-star checked"></span>';
+  thtml+='<span class="fa fa-star checked"></span>';
+  thtml+='<span class="fa fa-star checked"></span>';
+  thtml+='<span class="fa fa-star"></span>';
+  thtml+='<span class="fa fa-star"></span>';
+  thtml+='<span class="fa fa-star"></span>&nbsp;(3) <br>';
+  
+  thtml+='<span class="fa fa-star checked"></span>';
+  thtml+='<span class="fa fa-star checked"></span>';
+  thtml+='<span class="fa fa-star "></span>';
+  thtml+='<span class="fa fa-star"></span>';
+  thtml+='<span class="fa fa-star"></span>';
+  thtml+='<span class="fa fa-star"></span>&nbsp;(4) <br>';
+  thtml+='<span class="fa fa-star checked"></span>';
+  thtml+='<span class="fa fa-star "></span>';
+  thtml+='<span class="fa fa-star "></span>';
+  thtml+='<span class="fa fa-star"></span>';
+  thtml+='<span class="fa fa-star"></span>';
+  thtml+='<span class="fa fa-star"></span>&nbsp;(10) <br>';
+  thtml+='</div>';
+  thtml+='<div class="col-md-2"><h2></div>';
+  thtml+='<div class="col-md-5"><h2></h2></br></br></br></br></br>';
+  thtml+='<h3><span class="btn btn-info" id="addReviewBtn">Add Review</span></h3>';
+  thtml+='</div>';
+  thtml+='</div></br>';
+
+  thtml+='<div id="addReviewDiv">';
   thtml+='<h3>Review</h3>';
   thtml+='<div class="container reviewCont">';
   thtml+='  <form action="http://codingkloud.com/shopify-app/action/productReview/AddReview.php" method="post" enctype="multipart/form-data" class="add-event-form">';
@@ -30,7 +94,7 @@ $(document).ready(function() {
   thtml+=' <textarea id="subject" name="subject" placeholder="Write something." style="height:200px"></textarea>';
   thtml+=' <button class="btn btn-info" id="review_submit" value="Submit">Submit</button>';
   thtml+='  </form>';
-  thtml+='</div>';
+  thtml+='</div></div>';
   $('#leave_review').append(thtml);
   $('.container.reviewCont').css({'border-radius': '5px',
                                'background-color': '#f2f2f2',
@@ -46,12 +110,14 @@ $(document).ready(function() {
                                               'resize': 'vertical'
                                              }); 
   $('input[type=submit]:hover').css({'background-color': '#45a049;'}); 
-        $('.rating').css({'overflow': 'hidden',
+  $('.rating').css({'overflow': 'hidden',
                     'vertical-align': 'bottom',
                     'display': 'inline-block',
                     'width': 'auto',
                     'height': '30px'  
                      }); 
+
+$('.checked').css({'color': 'orange'}); 
 
  $('.rating > label').css({'position': 'relative',
                     'display': 'block',
@@ -74,5 +140,10 @@ $(document).ready(function() {
 
 $('.rating > label:hover:before,  .rating > label:hover ~ label:before,  .rating:not(:hover) > :checked ~ label:before').css({'opacity': '1'
                      }); 
-                                 
+       
+ $('#addReviewDiv').hide();
+  $( "#addReviewBtn" ).click(function() {
+    $('#addReviewDiv').show();
   });
+                            
+});

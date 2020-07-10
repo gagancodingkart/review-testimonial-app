@@ -62,7 +62,49 @@ require('layout/header.php');
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
+<?php
+// $contactName='Dharmendra';
+//  $subject = $contactName.' sent';
+//  $shop="https://jayka-new.myshopify.com";
+//  $message='first App email';
+//  $from="gagan.codingkart1@gmail.com";
+//  $to="gagan.codingkart@gmail.com";
+//  $phone=9074490746;
+//     $htmlContent = ' 
+//             <html> 
+//             <head> 
+//                 <title> '.$subject.' </title> 
+//             </head> 
+//             <body> 
+//                 <h1>Thanks you for purchase!</h1> 
+//                 <table cellspacing="0" style="border:  width: 100%;"> 
+//                     <tr> 
+//                         <th>Welcome to '.$shop.' !</th> 
+//                     </tr> 
+//                     <tr style="background-color: #e0e0e0;"> 
+//                         <th>'.$message.' ( '.$phone.' )</th> 
+//                     </tr> 
+//                     <tr> 
+//                         <th><a href="'.$shop.'" class="btn btn-primary">Go to shop</a></th> 
+//                     </tr> 
+//                 </table> 
+//             </body> 
+//             </html>'; 
+//             $headers = "Content-type:text/html;" . "<br>"; 
 
+//             // Additional headers 
+//             $headers .= 'From: Gagan <'.$from.'>' ."<br>"; 
+//             $headers .= 'Cc: '.$from."<br>"; 
+//             $headers .= 'Bcc: '.$from ."<br>"; 
+           
+//              if(!mail($to, $subject, $htmlContent, $headers)){ 
+//               echo 'Sending failed.'; 
+//                }
+//              else{
+//               echo 'Sending success.'; 
+//               }
+
+?>
 <?php 
 require('layout/footer.php');
 ?>
@@ -81,27 +123,60 @@ require('layout/footer.php');
 <script src="../dist/js/demo.js"></script>
 <!-- page script -->
 <script>
-
-
-$( document ).ready(function() {
+$(document).ready(function() {
+  loadReviews = [ { "action": "loadReviews"}];
       $.ajax({
        type: "POST",
        url: "../../productReview/ManageReviews.php",
-       // data: dataString,
-       crossDomain: true,
-       cache: false,
+       data: { data: JSON.stringify(loadReviews) },
        // dataType: 'JSON',
-       success: function (result) { 
+        success: function (result) { 
           $('#reviewDetails').append(result);   
-
            $("#reviewTable").DataTable({
-      "responsive": true,
-      "autoWidth": false,
-    }); 
-       }
-        }); //end ajax  
-    
+           "responsive": true,
+           "autoWidth": false,
+          }); 
+        }
+      }); //end ajax  
 });
 
-  
+</script>
+<script>
+jQuery(document).ready(function(){
+  jQuery(document).on('click','.status_toggle',function(e){
+   e.preventDefault();
+     var review_id = jQuery(this).attr('review_id');
+     var status    = jQuery(".status-"+review_id).text();
+     updateReviewStatus = [ { "action": "reviewStatusToggle", "review_id": review_id ,"status":status}];
+  $(".status-"+review_id).empty();
+       $.ajax({
+          type : "POST",
+          // dataType: "json",
+          url  : "../../productReview/ManageReviews.php",
+          data : { data: JSON.stringify(updateReviewStatus) },
+          success : function( response ) {
+           var result=jQuery.parseJSON(response);
+            $(".status-"+review_id).append(result['status']);
+            }
+        });
+  });
+  jQuery(document).on('click','.del-review',function(e){
+   e.preventDefault();
+     var review_id = jQuery(this).attr('review_id');
+     deleteReview = [ { "action": "reviewDelete", "review_id": review_id}];
+       $.ajax({
+          type : "POST",
+          // dataType: "json",
+          url  : "../../productReview/ManageReviews.php",
+          data : { data: JSON.stringify(deleteReview) },
+          success : function( response ) {
+           var result=jQuery.parseJSON(response);
+            // console.log(result);
+           location.reload();
+            }
+        });
+  });
+
+ }); 
+
 </script>
