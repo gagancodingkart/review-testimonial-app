@@ -25,7 +25,11 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview menu-open">
+<<<<<<< HEAD:action/theme/productReview/layout/sidebar.php
             <a href="index.php?shop=<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link active">
+=======
+            <a href="index.php" class="nav-link active">
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262:action/theme/layout/reviewSidebar.php
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -34,7 +38,11 @@
           </li>
 
           <li class="nav-item">
+<<<<<<< HEAD:action/theme/productReview/layout/sidebar.php
             <a href="manageReview.php?shop=<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link">
+=======
+            <a href="manageReview.php" class="nav-link">
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262:action/theme/layout/reviewSidebar.php
               <i class="nav-icon fa fa-cogs"></i>
               <p>
                 Manage Reviews

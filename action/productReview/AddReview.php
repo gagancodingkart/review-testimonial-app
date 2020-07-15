@@ -12,17 +12,23 @@ class AddReview{
   }
   public function addReview($conn){     
   	try
+<<<<<<< HEAD
   	{ 
       $target_dir = "../include/assets/images/";
     
       // Check if image file is a actual image or fake image
       $reviewer_name        = $_POST['customer_name'];
       $product_name         = $_POST['product_name'];
+=======
+  	{
+      $reviewer_name        = $_POST['customer_name'];
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
       $reviewer_title       = $_POST['review_title'];
       $reviewer_email       = $_POST['customer_email'];
       $reviewer_subject     = $_POST['subject'];
       $rating               = $_POST['rating'];
       $prod_id              = $_POST['product_id'];
+<<<<<<< HEAD
       $request_at           = date("Y-m-d H:i:s");
       $shop_encrypt_address = md5($_SERVER['HTTP_ORIGIN']);
       $description =(string)$reviewer_name.' gives rating '. $rating . ' stars with review ' .$reviewer_subject;
@@ -73,6 +79,13 @@ if(isset($_FILES["product_image"]["name"]) && $_FILES["product_image"]["name"]!=
        $res=mysqli_query($conn,$notificationStore);
       }
 
+=======
+      $product_image        = $_POST['product_image'];
+      $request_at           = date("Y-m-d H:i:s");
+      $shop_encrypt_address = md5($_SERVER['HTTP_ORIGIN']);
+      $reviewStore          ="INSERT INTO product_review(rating,shop_encrypt_address,reviewer_name,title,customer_email,subject_description,status,created_at,review_image,product_id) VALUES ('$rating','$shop_encrypt_address','$reviewer_name','$reviewer_title','$reviewer_email','$reviewer_subject','Unpublished','$request_at','$product_image','$prod_id')";
+     $res                 =mysqli_query($conn,$reviewStore);
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
      header("Location:".$_SERVER['HTTP_REFERER'] ); /* Redirect browser */
   	}catch(Exception $e){
         $response['status'] = 'failer';

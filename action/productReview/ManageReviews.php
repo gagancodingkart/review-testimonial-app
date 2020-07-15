@@ -19,15 +19,22 @@ class ManageReviews{
           foreach($reviewData as $i => $item){
               $action = $item->action;
               if($action == 'loadReviews'){
+<<<<<<< HEAD
                $this->loadReviews($conn,$item->shop_encrypt);
               }else if($action == 'reviewStatusToggle'){
                $this->reviewStatusToggle($conn,$item->review_id,$item->status);
+=======
+               $this->loadReviews($conn);
+              }else if($action == 'reviewStatusToggle'){
+               $this->reviewStatusToggle($conn, $item->review_id,$item->status);
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
               }else if($action == 'reviewDelete'){
                $this->reviewDelete($conn, $item->review_id);
               }else if($action == 'loadRatings'){
                $this->loadRatings($conn, $item->product_id);
               }else if($action == 'loadReviewsForUser'){
                $this->loadReviewsForUser($conn, $item->product_id);
+<<<<<<< HEAD
               }else if($action == 'sendEmail'){
                $this->sendEmail($conn, $item->replyTo,$item->adminRevReply);
               }else if($action == 'loadNotification'){
@@ -38,10 +45,13 @@ class ManageReviews{
                $this->loadNotificationList($conn,$item->shop_encrypt);
               }else if($action == 'seenNotification'){
                $this->seenNotification($conn,$item->shop_encrypt);
+=======
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
               }
           }
     }
   }
+<<<<<<< HEAD
   public function loadNotificationCount($conn,$shop_encrypt){     
   	try
   	{
@@ -141,11 +151,18 @@ class ManageReviews{
     try
     {
      $reviewStore          ="SELECT * FROM product_review where shop_encrypt_address='$shop_encrypt'";
+=======
+  public function loadReviews($conn){     
+  	try
+  	{
+     $reviewStore          ="SELECT * FROM product_review";
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
      $res                  =mysqli_query($conn,$reviewStore);
      $collection = array();
       while($row = mysqli_fetch_array($res))
       {
         echo "<tr>";
+<<<<<<< HEAD
         if($row['review_image']!==''){
 
           // $ab=$_SERVER['HTTP_REFERER'].$row['review_image'];
@@ -177,12 +194,28 @@ class ManageReviews{
       }
       exit;
     }catch(Exception $e){
+=======
+        echo "<td>" .$row['review_image']."</td>";
+        echo "<td>" .$row['rating']."</td>";
+        echo "<td>" .$row['created_at']."</td>";
+        echo "<td>" .$row['reviewer_name']." post review ".$row['subject_description']. "</td>";
+        echo "<td class='status-".$row['id']."'style='color:red'>" .$row['status']."</td>";
+        echo "<td><i class='fa fa-lock status_toggle' review_id='".$row['id']."' style='font-size:24px;color:black'></i><i class='fa fa-trash del-review' review_id='".$row['id']."' style='font-size:24px;color:red'></i>" ."</td>";
+        echo "</tr>";
+      }
+      exit;
+  	}catch(Exception $e){
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
         $response['status'] = 'failer';
         $response['status_code'] = $e->getCode();
         $response['message']     = $this->error_code[$e->getCode()];
         print_r($response);
     }
+<<<<<<< HEAD
   die();
+=======
+	die();
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
   }
   public function reviewStatusToggle($conn, $review_id,$status){     
   	try
@@ -206,6 +239,7 @@ class ManageReviews{
         print_r($response);
     }
 	die();
+<<<<<<< HEAD
   }  
   public function sendEmail($conn, $replyTo,$adminRevReply){     
     try
@@ -232,6 +266,8 @@ class ManageReviews{
         print_r($response);
     }
   die();
+=======
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
   }
  public function reviewDelete($conn, $review_id){     
     try

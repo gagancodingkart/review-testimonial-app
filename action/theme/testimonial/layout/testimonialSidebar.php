@@ -2,7 +2,11 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
+<<<<<<< HEAD:action/theme/testimonial/layout/testimonialSidebar.php
       <img src="layout/images/t.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+=======
+      <img src="theme/testimonial/layout/images/t.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262:action/theme/layout/testimonialSidebar.php
            style="opacity: .8">
       <span class="brand-text font-weight-light">Testimonial</span>
     </a>

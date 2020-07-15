@@ -28,7 +28,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 <div class="w3-col m6 ">
   <!-- About Card -->
   <div class="w3-card w3-white w3-margin w3-margin-top">
-  <img src="./theme/layout/images/review.jpg" height="300px" style="width:100%">
+  <img src="./theme/productReview/layout/images/review.jpg" height="300px" style="width:100%">
     <div class="w3-container w3-white">
       <h4><b>Product Reviews</b></h4>
       <p>By this app, you can show a reviews widget on your Shopify store and allow customers to submit reviews on store as well as in emails too.</p>
@@ -47,7 +47,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 <div class="w3-col m6 ">
   <!-- About Card -->
   <div class="w3-card w3-white w3-margin w3-margin-top">
-  <img src="./theme/layout/images/testi.png" height="300px" style="width:100%">
+  <img src="./theme/testimonial/layout/images/testi.png" height="300px" style="width:100%">
     <div class="w3-container w3-white">
       <h4><b>Testimonials</b></h4>
       <p>Collect & show customer testimonials easily. Use premade testimonial widget templates to display social proof on your store.</p>
@@ -74,7 +74,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 <script> 
         function appTransition(shop, choice){ 
           if(choice=='review'){
-            window.open("http://codingkloud.com/shopify-app/action/ProductReview.php?shop="+shop, "_blank"); 
+            window.open("http://codingkloud.com/shopify-app/action/theme/productReview/index.php?shop="+shop, "_blank"); 
           }else if(choice=='testimonial'){
             window.open("http://codingkloud.com/shopify-app/action/Testimonial.php?shop="+shop, "_blank"); 
           }else{

@@ -973,6 +973,7 @@
 [10-Jul-2020 13:44:35 UTC] PHP Stack trace:
 [10-Jul-2020 13:44:35 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
 [10-Jul-2020 13:44:35 UTC] PHP   2. AddReview->addReview() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:39
+<<<<<<< HEAD
 [13-Jul-2020 06:02:41 UTC] PHP Notice:  Undefined index: fileToUpload in /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php on line 39
 [13-Jul-2020 06:02:41 UTC] PHP Stack trace:
 [13-Jul-2020 06:02:41 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/productReview/AddReview.php:0
@@ -1129,3 +1130,5 @@ Stack trace:
 [14-Jul-2020 11:25:46 UTC] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE) in /home/codingkloud/public_html/shopify-app/action/productReview/ManageReviews.php on line 150
 [14-Jul-2020 11:25:46 UTC] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE) in /home/codingkloud/public_html/shopify-app/action/productReview/ManageReviews.php on line 150
 [14-Jul-2020 11:25:47 UTC] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE) in /home/codingkloud/public_html/shopify-app/action/productReview/ManageReviews.php on line 150
+=======
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262

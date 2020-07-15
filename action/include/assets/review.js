@@ -1,11 +1,10 @@
 
 
-<<<<<<< HEAD
 $(document).ready(function() {
-
    document.write("\<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' type='text/javascript'>\<\/script>");
+
+
   var product_id= jQuery('#leave_review').attr('data-product-id').toString();
-  var product_name=jQuery('.product-single__title').text();
   var thtml='';
   thtml+='<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">';
   thtml+='<div class="row cart">';
@@ -20,79 +19,7 @@ $(document).ready(function() {
   thtml+='<div id="addReviewDiv">';
   thtml+='<h3>Review</h3>';
   thtml+='<div class="container reviewCont">';
-  thtml+='  <form action="http://codingkloud.com/shopify-app/action/productReview/AddReview.php" method="post" enctype="multipart/form-data">';
-=======
-function getRatting(){
-  var product_id= jQuery('#leave_review').attr('data-product-id').toString();
-   loadRatings = [ { "action": "loadRatings","product_id":product_id}];
-    $.ajax({
-          type : "POST",
-          dataType: "json",
-          url  : "http://codingkloud.com/shopify-app/action/productReview/ManageReviews.php",
-          data : { data: JSON.stringify(loadRatings) },
-          success : function( response ) {
-             // var result=jQuery.parseJSON(response);
-           
-           return response;
-            }
-        });
-}
-
-
-$(document).ready(function() {
-
-  var product_id= jQuery('#leave_review').attr('data-product-id').toString();
-  var ratingRes = getRatting();
-  console.log(ratingRes);
-  var thtml='';
-  thtml+='<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">';
-  thtml+='<div class="row-12 cart">';
-  thtml+='<div class="col-md-5" style="float:left"><h2>Star Rating</h2>';
-  thtml+='<span class="fa fa-star checked"></span>';
-  thtml+='<span class="fa fa-star checked"></span>';
-  thtml+='<span class="fa fa-star checked"></span>';
-  thtml+='<span class="fa fa-star checked"></span>';
-  thtml+='<span class="fa fa-star checked"></span>';
-  thtml+='<span class="fa fa-star checked"></span>&nbsp; (1)<br>';
-
-  thtml+='<span class="fa fa-star checked"></span>';
-  thtml+='<span class="fa fa-star checked"></span>';
-  thtml+='<span class="fa fa-star checked"></span>';
-  thtml+='<span class="fa fa-star checked"></span>';
-  thtml+='<span class="fa fa-star"></span>';
-  thtml+='<span class="fa fa-star"></span>&nbsp;(2) <br>';
-
-  thtml+='<span class="fa fa-star checked"></span>';
-  thtml+='<span class="fa fa-star checked"></span>';
-  thtml+='<span class="fa fa-star checked"></span>';
-  thtml+='<span class="fa fa-star"></span>';
-  thtml+='<span class="fa fa-star"></span>';
-  thtml+='<span class="fa fa-star"></span>&nbsp;(3) <br>';
-  
-  thtml+='<span class="fa fa-star checked"></span>';
-  thtml+='<span class="fa fa-star checked"></span>';
-  thtml+='<span class="fa fa-star "></span>';
-  thtml+='<span class="fa fa-star"></span>';
-  thtml+='<span class="fa fa-star"></span>';
-  thtml+='<span class="fa fa-star"></span>&nbsp;(4) <br>';
-  thtml+='<span class="fa fa-star checked"></span>';
-  thtml+='<span class="fa fa-star "></span>';
-  thtml+='<span class="fa fa-star "></span>';
-  thtml+='<span class="fa fa-star"></span>';
-  thtml+='<span class="fa fa-star"></span>';
-  thtml+='<span class="fa fa-star"></span>&nbsp;(10) <br>';
-  thtml+='</div>';
-  thtml+='<div class="col-md-2"><h2></div>';
-  thtml+='<div class="col-md-5"><h2></h2></br></br></br></br></br>';
-  thtml+='<h3><span class="btn btn-info" id="addReviewBtn">Add Review</span></h3>';
-  thtml+='</div>';
-  thtml+='</div></br>';
-
-  thtml+='<div id="addReviewDiv">';
-  thtml+='<h3>Review</h3>';
-  thtml+='<div class="container reviewCont">';
   thtml+='  <form action="http://codingkloud.com/shopify-app/action/productReview/AddReview.php" method="post" enctype="multipart/form-data" class="add-event-form">';
->>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
   thtml+='  <label for="rating">Rating</label>';
   thtml+='  <input id="rating5" type="radio" name="rating" value="1">';
   thtml+='  <label for="rating5">1</label>';
@@ -105,23 +32,6 @@ $(document).ready(function() {
   thtml+='  <input id="rating1" type="radio" name="rating" value="5">';
   thtml+='  <label for="rating1">5</label>';
   thtml+='    <label for="name">Name</label>';
-<<<<<<< HEAD
-  thtml+='   <input type="text" id="customer_name" name="customer_name" placeholder="Your name." required> ';
-  thtml+='   <input type="hidden" id="product_id" name="product_id" value="'+product_id+'"> ';
-  thtml+='   <input type="hidden" id="product_name" name="product_name" value="'+product_name+'"> ';
-  thtml+='   <label for="review_title">Review Title(Optional)</label>';
-  thtml+='    <input type="text" id="review_title" name="review_title" placeholder="Give Review Title." />';
-  thtml+='    <label for="email">Email</label>';
-  thtml+='   <input type="email" id="customer_email" name="customer_email" placeholder="Your email." required/>';
-  thtml+='    <label for="productimage">Upload a picture of your product(Optional)</label>';
-  thtml+='     <input type="file" id="product_image" name="product_image" />';
-  thtml+='    <label for="subject">Review Description</label>';
-  thtml+=' <textarea id="subject" name="subject" placeholder="Write something." style="height:200px" required></textarea>';
-  thtml+=' <button class="btn btn-info" id="review_submit" onclick="checkValidation();" value="Submit">Submit</button>';
-  thtml+='  </form>';
-  thtml+='</div></div>';
-
-=======
   thtml+='   <input type="text" id="customer_name" name="customer_name" placeholder="Your name."> ';
   thtml+='   <input type="hidden" id="product_id" name="product_id" value="'+product_id+'"> ';
   thtml+='   <label for="review_title">Review Title(Optional)</label>';
@@ -135,7 +45,7 @@ $(document).ready(function() {
   thtml+=' <button class="btn btn-info" id="review_submit" value="Submit">Submit</button>';
   thtml+='  </form>';
   thtml+='</div></div>';
->>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
+
   $('#leave_review').append(thtml);
   $('.container.reviewCont').css({'border-radius': '5px',
                                'background-color': '#f2f2f2',
@@ -158,10 +68,6 @@ $(document).ready(function() {
                     'height': '30px'  
                      }); 
 
-<<<<<<< HEAD
-=======
-$('.checked').css({'color': 'orange'}); 
->>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
 
  $('.rating > label').css({'position': 'relative',
                     'display': 'block',
@@ -191,7 +97,6 @@ $('.rating > label:hover:before,  .rating > label:hover ~ label:before,  .rating
   });
                             
 });
-<<<<<<< HEAD
 
 
 $(document).ready(function() {
@@ -284,10 +189,3 @@ $(document).ready(function() {
  });
 
 
-function checkValidation(e){
-  e.preventDefault();
-  alert("hiii");
-  return false;
-}
-=======
->>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262

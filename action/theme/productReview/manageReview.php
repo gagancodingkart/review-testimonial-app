@@ -37,11 +37,18 @@ require('layout/header.php');
                 <table id="reviewTable" class="table table-bordered table-striped">
                   <thead>
                   <tr>
+<<<<<<< HEAD
                     <th>Product Name</th>
                     <th>Rating</th>
                     <th>Description</th>
                     <th>Product Photo</th>
                     <th>Time</th>
+=======
+                    <th>Product Photo</th>
+                    <th>Rating</th>
+                    <th>Time</th>
+                    <th>Review</th>
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
                     <th>Status</th>
                     <th>Action</th>
                   </tr>
@@ -59,6 +66,7 @@ require('layout/header.php');
         <!-- /.row -->
       </div>
       <!-- /.container-fluid -->
+<<<<<<< HEAD
 
     <div class="bs-example">    
     <!-- Modal HTML -->
@@ -75,6 +83,9 @@ require('layout/header.php');
       margin: 20px;
     }
 </style>
+=======
+    </section>
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
@@ -140,6 +151,7 @@ require('layout/footer.php');
 <!-- page script -->
 <script>
 $(document).ready(function() {
+<<<<<<< HEAD
   // modal email load
 jQuery(document).on('click','.send_email',function(e){
    e.preventDefault();
@@ -228,6 +240,9 @@ jQuery(document).on('click','#sent_email',function(e){
 $(document).ready(function() {
    var shop = '<?php echo $_SESSION["shop_encrypt"];?>';
   loadReviews = [ { "action": "loadReviews",'shop_encrypt':shop}];
+=======
+  loadReviews = [ { "action": "loadReviews"}];
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
       $.ajax({
        type: "POST",
        url: "../../productReview/ManageReviews.php",
@@ -246,6 +261,7 @@ $(document).ready(function() {
 </script>
 <script>
 jQuery(document).ready(function(){
+<<<<<<< HEAD
   // Toggle Review Status
   jQuery(document).on('click','.status_toggle',function(e){
    e.preventDefault();
@@ -257,6 +273,15 @@ jQuery(document).ready(function(){
       updateReviewStatus = [ { "action": "reviewStatusToggle", "review_id": review_id ,"status":status,'shop_encrypt':shop}];
       $(".status-"+review_id).empty();
       $.ajax({
+=======
+  jQuery(document).on('click','.status_toggle',function(e){
+   e.preventDefault();
+     var review_id = jQuery(this).attr('review_id');
+     var status    = jQuery(".status-"+review_id).text();
+     updateReviewStatus = [ { "action": "reviewStatusToggle", "review_id": review_id ,"status":status}];
+  $(".status-"+review_id).empty();
+       $.ajax({
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
           type : "POST",
           // dataType: "json",
           url  : "../../productReview/ManageReviews.php",
@@ -264,6 +289,7 @@ jQuery(document).ready(function(){
           success : function( response ) {
            var result=jQuery.parseJSON(response);
             $(".status-"+review_id).append(result['status']);
+<<<<<<< HEAD
             location.reload();
             }
       });
@@ -277,6 +303,16 @@ jQuery(document).ready(function(){
       var review_id = jQuery(this).attr('review_id');
       deleteReview = [ { "action": "reviewDelete", "review_id": review_id}];
       $.ajax({
+=======
+            }
+        });
+  });
+  jQuery(document).on('click','.del-review',function(e){
+   e.preventDefault();
+     var review_id = jQuery(this).attr('review_id');
+     deleteReview = [ { "action": "reviewDelete", "review_id": review_id}];
+       $.ajax({
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
           type : "POST",
           // dataType: "json",
           url  : "../../productReview/ManageReviews.php",
@@ -287,8 +323,14 @@ jQuery(document).ready(function(){
            location.reload();
             }
         });
+<<<<<<< HEAD
     }
   });
 }); 
+=======
+  });
+
+ }); 
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
 
 </script>

@@ -241,6 +241,7 @@
 [10-Jul-2020 13:45:03 UTC] PHP Stack trace:
 [10-Jul-2020 13:45:03 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
 [10-Jul-2020 13:45:03 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:126
+<<<<<<< HEAD
 [13-Jul-2020 06:47:33 UTC] PHP Notice:  Undefined variable: array in /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php on line 137
 [13-Jul-2020 06:47:33 UTC] PHP Stack trace:
 [13-Jul-2020 06:47:33 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
@@ -2467,3 +2468,5 @@
 [15-Jul-2020 13:26:09 UTC] PHP Stack trace:
 [15-Jul-2020 13:26:09 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:0
 [15-Jul-2020 13:26:09 UTC] PHP   2. checkScriptUpload() /home/codingkloud/public_html/shopify-app/action/theme/productReview/index.php:148
+=======
+>>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
