@@ -18,6 +18,7 @@ class ErrorCode{
             '500'   => "Internal Server Error",
             '503'   => "Service Unavailable",
             '504'   => "Gateway Timeout",
+            '60'    => "INVALID type SPECIFICATION SQL Error",
             '' =>'something went worng!!'          
             );
     }

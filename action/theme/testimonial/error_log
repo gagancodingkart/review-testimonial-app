@@ -1,0 +1,10 @@
+[15-Jul-2020 07:16:14 UTC] PHP Warning:  require_once(theme/testimonial/layout/header.php): failed to open stream: No such file or directory in /home/codingkloud/public_html/shopify-app/action/theme/testimonial/index.php on line 1
+[15-Jul-2020 07:16:14 UTC] PHP Stack trace:
+[15-Jul-2020 07:16:14 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/testimonial/index.php:0
+[15-Jul-2020 07:16:14 UTC] PHP Fatal error:  require_once(): Failed opening required 'theme/testimonial/layout/header.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/codingkloud/public_html/shopify-app/action/theme/testimonial/index.php on line 1
+[15-Jul-2020 07:16:14 UTC] PHP Stack trace:
+[15-Jul-2020 07:16:14 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/testimonial/index.php:0
+[15-Jul-2020 07:29:12 UTC] PHP Notice:  Undefined index: shopaddress in /home/codingkloud/public_html/shopify-app/action/theme/testimonial/layout/header.php on line 5
+[15-Jul-2020 07:29:12 UTC] PHP Stack trace:
+[15-Jul-2020 07:29:12 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/theme/testimonial/index.php:0
+[15-Jul-2020 07:29:12 UTC] PHP   2. require_once() /home/codingkloud/public_html/shopify-app/action/theme/testimonial/index.php:1
