@@ -1,5 +1,8 @@
 <?php 
-$requests = $_GET;
+$requests                 = $_GET;
+session_start();
+$shop_encrypt_address     =md5("https://".$requests['shop']);
+$_SESSION["shop_encrypt"] =$shop_encrypt_address;
 ?>
 <!DOCTYPE html>
 <html>
@@ -33,11 +36,8 @@ and is wrapped around the whole page content, except for the footer in this exam
       <h4><b>Product Reviews</b></h4>
       <p>By this app, you can show a reviews widget on your Shopify store and allow customers to submit reviews on store as well as in emails too.</p>
     </div>
-    <?php 
-    $shop = "https://" .$requests['shop'];
-    $shopAdd = md5($shop);
-    ?>
-      <p><span onclick="appTransition('<?php echo $shopAdd?>','review');" class="w3-button w3-padding-large w3-white w3-border">Configure »</span></p>
+    
+      <p><span onclick="appTransition('review');" class="w3-button w3-padding-large w3-white w3-border">Configure »</span></p>
       	
   </div><hr>
    
@@ -52,7 +52,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <h4><b>Testimonials</b></h4>
       <p>Collect & show customer testimonials easily. Use premade testimonial widget templates to display social proof on your store.</p>
     </div>
-   <p><span onclick="appTransition('<?php echo $shopAdd?>', 'testimonial');" class="w3-button w3-padding-large w3-white w3-border">Configure »</span></p> 
+   <p><span onclick="appTransition('testimonial');" class="w3-button w3-padding-large w3-white w3-border">Configure »</span></p> 
   </div><hr>
    
 <!-- END Introduction Menu -->
@@ -72,11 +72,13 @@ and is wrapped around the whole page content, except for the footer in this exam
 </body>
 </html>
 <script> 
-        function appTransition(shop, choice){ 
+        function appTransition(choice){ 
+          var shop = '<?php echo $requests['shop']?>';
+          var shopaddress = '<?php echo $_SESSION["shop_encrypt"];?>';
           if(choice=='review'){
-            window.open("http://codingkloud.com/shopify-app/action/theme/productReview/index.php?shop="+shop, "_blank"); 
+            window.open("http://codingkloud.com/shopify-app/action/theme/productReview/index.php?shop="+shop+"&shopaddress="+shopaddress, "_blank"); 
           }else if(choice=='testimonial'){
-            window.open("http://codingkloud.com/shopify-app/action/Testimonial.php?shop="+shop, "_blank"); 
+            window.open("http://codingkloud.com/shopify-app/action/theme/testimonial/index.php?shop="+shop+"&shopaddress="+shopaddress, "_blank"); 
           }else{
             alert("Not Configure Yet!");
             return false;

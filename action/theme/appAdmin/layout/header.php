@@ -10,67 +10,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
-  /* Switch button module start*/
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
 
-.switch input { 
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #2196F3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-/* Switch button module end*/
-/* tool tip module css start*/
-/* tool tip module css end*/
-</style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <meta charset="utf-8">
@@ -102,13 +42,7 @@ input:checked + .slider:before {
       </li> &nbsp; &nbsp;
       
        <li class="nav-item d-none d-sm-inline-block">
-        <a href="<?php echo "https://".$_SESSION["shop"]."/collections/all";?>" class="btn btn-sm btn-info float-left">Go To Site</a>
-      </li> &nbsp; &nbsp;
-      <li class="nav-item d-none d-sm-inline-block" data-toggle="tooltip" title="Switch To Testimonial">
-       <label class="switch">
-        <input type="checkbox" id='switch_mode'>
-        <span class="slider btn-info round"></span>
-       </label>
+        <a href="#" class="btn btn-sm btn-info float-left">Go To Site</a>
       </li> 
     </ul>
 

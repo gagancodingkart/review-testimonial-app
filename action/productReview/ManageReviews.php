@@ -19,24 +19,17 @@ class ManageReviews{
           foreach($reviewData as $i => $item){
               $action = $item->action;
               if($action == 'loadReviews'){
-<<<<<<< HEAD
                $this->loadReviews($conn,$item->shop_encrypt);
               }else if($action == 'reviewStatusToggle'){
                $this->reviewStatusToggle($conn,$item->review_id,$item->status);
-=======
-               $this->loadReviews($conn);
-              }else if($action == 'reviewStatusToggle'){
-               $this->reviewStatusToggle($conn, $item->review_id,$item->status);
->>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
               }else if($action == 'reviewDelete'){
                $this->reviewDelete($conn, $item->review_id);
               }else if($action == 'loadRatings'){
                $this->loadRatings($conn, $item->product_id);
               }else if($action == 'loadReviewsForUser'){
                $this->loadReviewsForUser($conn, $item->product_id);
-<<<<<<< HEAD
               }else if($action == 'sendEmail'){
-               $this->sendEmail($conn, $item->replyTo,$item->adminRevReply);
+               $this->sendEmail($conn, $item->replyTo,$item->adminRevReply,$item->shop_encrypt);
               }else if($action == 'loadNotification'){
                $this->loadNotificationCount($conn,$item->shop_encrypt);
               }else if($action == 'loadNotificationDetails'){
@@ -45,13 +38,10 @@ class ManageReviews{
                $this->loadNotificationList($conn,$item->shop_encrypt);
               }else if($action == 'seenNotification'){
                $this->seenNotification($conn,$item->shop_encrypt);
-=======
->>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
               }
           }
     }
   }
-<<<<<<< HEAD
   public function loadNotificationCount($conn,$shop_encrypt){     
   	try
   	{
@@ -151,23 +141,13 @@ class ManageReviews{
     try
     {
      $reviewStore          ="SELECT * FROM product_review where shop_encrypt_address='$shop_encrypt'";
-=======
-  public function loadReviews($conn){     
-  	try
-  	{
-     $reviewStore          ="SELECT * FROM product_review";
->>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
      $res                  =mysqli_query($conn,$reviewStore);
      $collection = array();
       while($row = mysqli_fetch_array($res))
       {
         echo "<tr>";
-<<<<<<< HEAD
         if($row['review_image']!==''){
-
-          // $ab=$_SERVER['HTTP_REFERER'].$row['review_image'];
-          // print_r($_SERVER['HTTP_REFERER']);exit;
-         $image='<img src="http://codingkloud.com/shopify-app/action/include/assets/images/'.$row['review_image'].'" class="brand-image img-circle elevation-3" style="height:100px;width:100px;">';
+         $image='<img src="http://codingkloud.com/shopify-app/action/include/assets/images/'.$row['review_image'].'" class="brand-image elevation-3" style="height:250px;width:470px;">';
         }else{
           $image="";
         }
@@ -182,40 +162,23 @@ class ManageReviews{
             $starthtml=$starthtml.'<span class="fa fa-star "></span>';
          }
          $thtml = $starthtml;
-
-        echo "<td>" .$row['product_name']."</td>";
-        echo "<td>" .$thtml."</td>";
-        echo "<td>" .$row['reviewer_name']." post review ".$row['subject_description']. "</td>";
-        echo "<td>" .$image."</td>";
-        echo "<td>" .$row['created_at']."</td>";
-        echo "<td class='status-".$row['id']."'style='color:red'>" .$row['status']."</td>"; 
-        echo "<td><i class='fa fa-envelope send_email' review_id='".$row['id']."' customer_email='".$row['customer_email']."' reviewer_name='".$row['reviewer_name']."'style='font-size:24px;'></i>&nbsp;<i class='fa fa-lock status_toggle' review_id='".$row['id']."' style='font-size:24px;color:black'></i>  &nbsp;<i class='fa fa-trash del-review' review_id='".$row['id']."' style='font-size:24px;color:red'></i> &nbsp;<i class='fa fa-eye view-review' rev-img='".$image."' rev-name='".$row['reviewer_name']."' rev-title='".$row['title']."'  rev-rating='".$thtml."' rev-sub='".$row['subject_description']."' rev-status='".$row['status']."' pro-name='".$row['product_name']."'review_id='".$row['id']."' rev-email='".$row['customer_email']."' style='font-size:24px;color:blue'></i>" ."</td>";
+         echo "<td>" .$row['customer_email']."</td>";
+         echo "<td>" .$row['product_name']."</td>";
+         echo "<td>" .$thtml."</td>";
+         echo "<td>" .$row['reviewer_name']." post review ".$row['subject_description']. "</td>";
+         echo "<td>" .$row['created_at']."</td>";
+         echo "<td class='status-".$row['id']."'style='color:red'>" .$row['status']."</td>"; 
+         echo "<td><i class='fa fa-eye view-review' data-toggle='tooltip' title='View review' rev-img='".$image."' rev-name='".$row['reviewer_name']."' rev-title='".$row['title']."'  rev-rating='".$thtml."' rev-sub='".$row['subject_description']."' rev-status='".$row['status']."' pro-name='".$row['product_name']."'review_id='".$row['id']."' rev-email='".$row['customer_email']."' style='font-size:24px;color:blue'></i> &nbsp; <i class='fa fa-envelope send_email' data-toggle='tooltip' title='Connect to reviewer' review_id='".$row['id']."' customer_email='".$row['customer_email']."' reviewer_name='".$row['reviewer_name']."'style='font-size:24px;'></i>&nbsp;<i class='fa fa-lock status_toggle' review_id='".$row['id']."' data-toggle='tooltip' title='Change Status' style='font-size:24px;color:black'></i>  &nbsp;<i class='fa fa-trash del-review' review_id='".$row['id']."' data-toggle='tooltip' title='Delete Review' style='font-size:24px;color:red'></i>" ."</td>";
         echo "</tr>";
       }
       exit;
     }catch(Exception $e){
-=======
-        echo "<td>" .$row['review_image']."</td>";
-        echo "<td>" .$row['rating']."</td>";
-        echo "<td>" .$row['created_at']."</td>";
-        echo "<td>" .$row['reviewer_name']." post review ".$row['subject_description']. "</td>";
-        echo "<td class='status-".$row['id']."'style='color:red'>" .$row['status']."</td>";
-        echo "<td><i class='fa fa-lock status_toggle' review_id='".$row['id']."' style='font-size:24px;color:black'></i><i class='fa fa-trash del-review' review_id='".$row['id']."' style='font-size:24px;color:red'></i>" ."</td>";
-        echo "</tr>";
-      }
-      exit;
-  	}catch(Exception $e){
->>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
         $response['status'] = 'failer';
         $response['status_code'] = $e->getCode();
         $response['message']     = $this->error_code[$e->getCode()];
         print_r($response);
     }
-<<<<<<< HEAD
   die();
-=======
-	die();
->>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
   }
   public function reviewStatusToggle($conn, $review_id,$status){     
   	try
@@ -239,22 +202,27 @@ class ManageReviews{
         print_r($response);
     }
 	die();
-<<<<<<< HEAD
   }  
-  public function sendEmail($conn, $replyTo,$adminRevReply){     
+  public function sendEmail($conn, $replyTo,$adminRevReply,$shop_encrypt){     
     try
     {
       if($replyTo!==''){
         ini_set( 'display_errors', 1 );
         error_reporting( E_ALL );
-        $from    = "gagan.codingkart@gmail.com";
-        $to      = (string)$replyTo;
-        // $replyTo;
-        $subject = "Store Admin Responds on your Review";
-        $message = $adminRevReply;
-        $headers = "From:" . $from;
-        $resp= mail($to,$subject,$message, $headers);
-        $response['status'] ='Success';
+        $getSettings       = "SELECT email from shop_details where shop_status=1 and shop_encrypt_address='$shop_encrypt' ORDER BY id DESC LIMIT 1";
+        $getSettingsres    = mysqli_query($conn,$getSettings);
+        if($getSettingsres){
+          $getSettingsData = mysqli_fetch_array($getSettingsres);
+          $email_message   = $getSettingsData['email'];
+          $from            = $email_message;
+          $to              = (string)$replyTo;
+          // $replyTo;
+          $subject         = "Store Admin Responds on your Review";
+          $message         = $adminRevReply;
+          $headers         = "From:" . $from;
+          $resp            = mail($to,$subject,$message, $headers);
+          $response['status'] ='Success';
+        }
        }else{
         $response['status'] ='Invalid Reciever';
       }
@@ -266,8 +234,6 @@ class ManageReviews{
         print_r($response);
     }
   die();
-=======
->>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
   }
  public function reviewDelete($conn, $review_id){     
     try
@@ -323,8 +289,9 @@ class ManageReviews{
   public function loadReviewsForUser($conn, $product_id){     
     try
     {
+     $shop_encrypt_address =(string)md5($_SERVER['HTTP_ORIGIN']);
       $newArry = array();
-      $storeReview  ="SELECT reviewer_name,title,subject_description,rating,created_at FROM product_review  where product_id='4699382808621' and status ='Published'";
+      $storeReview  ="SELECT reviewer_name,title,subject_description,rating,created_at FROM product_review  where shop_encrypt_address='$shop_encrypt_address' and product_id='$product_id' and status ='Published'";
       $res    =mysqli_query($conn,$storeReview);
       if($res){
         while($row = mysqli_fetch_array($res)){

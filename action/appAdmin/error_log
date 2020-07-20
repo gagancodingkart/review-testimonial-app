@@ -1,0 +1,21 @@
+[20-Jul-2020 11:01:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ReviewRequest::loadShopDetails() in /home/codingkloud/public_html/shopify-app/action/appAdmin/Login.php:19
+Stack trace:
+#0 /home/codingkloud/public_html/shopify-app/action/appAdmin/Login.php(48): ReviewRequest->__construct(Object(mysqli))
+#1 {main}
+  thrown in /home/codingkloud/public_html/shopify-app/action/appAdmin/Login.php on line 19
+[20-Jul-2020 11:09:30 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /home/codingkloud/public_html/shopify-app/action/appAdmin/Login.php on line 45
+[20-Jul-2020 12:14:54 UTC] PHP Notice:  Undefined variable: response in /home/codingkloud/public_html/shopify-app/action/appAdmin/Login.php on line 46
+[20-Jul-2020 12:14:54 UTC] PHP Stack trace:
+[20-Jul-2020 12:14:54 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/appAdmin/Login.php:0
+[20-Jul-2020 12:14:54 UTC] PHP   2. Login->__construct() /home/codingkloud/public_html/shopify-app/action/appAdmin/Login.php:53
+[20-Jul-2020 12:14:54 UTC] PHP   3. Login->loginCheck() /home/codingkloud/public_html/shopify-app/action/appAdmin/Login.php:16
+[20-Jul-2020 12:15:38 UTC] PHP Notice:  Undefined variable: response in /home/codingkloud/public_html/shopify-app/action/appAdmin/Login.php on line 46
+[20-Jul-2020 12:15:38 UTC] PHP Stack trace:
+[20-Jul-2020 12:15:38 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/appAdmin/Login.php:0
+[20-Jul-2020 12:15:38 UTC] PHP   2. Login->__construct() /home/codingkloud/public_html/shopify-app/action/appAdmin/Login.php:53
+[20-Jul-2020 12:15:38 UTC] PHP   3. Login->loginCheck() /home/codingkloud/public_html/shopify-app/action/appAdmin/Login.php:16
+[20-Jul-2020 12:16:29 UTC] PHP Notice:  Undefined variable: response in /home/codingkloud/public_html/shopify-app/action/appAdmin/Login.php on line 46
+[20-Jul-2020 12:16:29 UTC] PHP Stack trace:
+[20-Jul-2020 12:16:29 UTC] PHP   1. {main}() /home/codingkloud/public_html/shopify-app/action/appAdmin/Login.php:0
+[20-Jul-2020 12:16:29 UTC] PHP   2. Login->__construct() /home/codingkloud/public_html/shopify-app/action/appAdmin/Login.php:53
+[20-Jul-2020 12:16:29 UTC] PHP   3. Login->loginCheck() /home/codingkloud/public_html/shopify-app/action/appAdmin/Login.php:16

@@ -1,10 +1,7 @@
-<?php
-require('layout/header.php');
-?> 
-
-<?php require('layout/sidebar.php');?>
- <!-- echo "http://" . $_SERVER['SERVER_NAME']; -->
+<?php include('layout/header.php');?>
+<?php include('layout/sidebar.php');?>
   <!-- Content Wrapper. Contains page content -->
+
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -22,136 +19,62 @@ require('layout/header.php');
         </div>
       </div><!-- /.container-fluid -->
     </section>
-      <!-- Main content -->
+    <!-- Main content -->
     <section class="content">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-           
-            <div class="card">
-              <div class="card-header">
-                <h3 class="card-title">Review List</h3>
-              </div>
-              <!-- /.card-header -->
-              <div class="card-body">
-                <table id="reviewTable" class="table table-bordered table-striped">
-                  <thead>
-                  <tr>
-<<<<<<< HEAD
-                    <th>Product Name</th>
-                    <th>Rating</th>
-                    <th>Description</th>
-                    <th>Product Photo</th>
-                    <th>Time</th>
-=======
-                    <th>Product Photo</th>
-                    <th>Rating</th>
-                    <th>Time</th>
-                    <th>Review</th>
->>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
-                    <th>Status</th>
-                    <th>Action</th>
-                  </tr>
-                  </thead>
-                  <tbody id="reviewDetails">
-                  </tbody>
-                </table>
-              </div>
-              <!-- /.card-body -->
-            </div>
-            <!-- /.card -->
-          </div>
-          <!-- /.col -->
+      <!-- Default box -->
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">Review Manage</h3>
         </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container-fluid -->
-<<<<<<< HEAD
-
-    <div class="bs-example">    
-    <!-- Modal HTML -->
-    <div id="responceModal" class="modal fade">
-        <div class="modal-dialog">
+        <div class="card-body">
+          <table id="reviewTable" class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>CustomerEmail</th>
+              <th>Product Name</th>
+              <th>Rating</th>
+              <th>Description</th>
+              <th>Date & Time</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="reviewDetails">
+          </tbody>
+        </table>
+        </div>
+        <div class="bs-example">    
+        <div id="responceModal" class="modal fade">
+         <div class="modal-dialog">
             <div class="modal-content" id="dynamiccontent"></div>
+         </div>
         </div>
-    </div>
-    </div>
-
+      </div>
+        <!-- /.card-body -->
+      </div>
+      <!-- /.card -->
     </section>
-    <style>
-    .bs-example{
-      margin: 20px;
-    }
-</style>
-=======
-    </section>
->>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-<?php
-// $contactName='Dharmendra';
-//  $subject = $contactName.' sent';
-//  $shop="https://jayka-new.myshopify.com";
-//  $message='first App email';
-//  $from="gagan.codingkart1@gmail.com";
-//  $to="gagan.codingkart@gmail.com";
-//  $phone=9074490746;
-//     $htmlContent = ' 
-//             <html> 
-//             <head> 
-//                 <title> '.$subject.' </title> 
-//             </head> 
-//             <body> 
-//                 <h1>Thanks you for purchase!</h1> 
-//                 <table cellspacing="0" style="border:  width: 100%;"> 
-//                     <tr> 
-//                         <th>Welcome to '.$shop.' !</th> 
-//                     </tr> 
-//                     <tr style="background-color: #e0e0e0;"> 
-//                         <th>'.$message.' ( '.$phone.' )</th> 
-//                     </tr> 
-//                     <tr> 
-//                         <th><a href="'.$shop.'" class="btn btn-primary">Go to shop</a></th> 
-//                     </tr> 
-//                 </table> 
-//             </body> 
-//             </html>'; 
-//             $headers = "Content-type:text/html;" . "<br>"; 
 
-//             // Additional headers 
-//             $headers .= 'From: Gagan <'.$from.'>' ."<br>"; 
-//             $headers .= 'Cc: '.$from."<br>"; 
-//             $headers .= 'Bcc: '.$from ."<br>"; 
-           
-//              if(!mail($to, $subject, $htmlContent, $headers)){ 
-//               echo 'Sending failed.'; 
-//                }
-//              else{
-//               echo 'Sending success.'; 
-//               }
-
-?>
 <?php 
 require('layout/footer.php');
 ?>
-<!-- jQuery -->
-<script src="../plugins/jquery/jquery.min.js"></script>
-<!-- Bootstrap 4 -->
-<script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 <!-- DataTables -->
 <script src="../plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="../plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
 <script src="../plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
-<script src="../plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+
 <!-- AdminLTE App -->
 <script src="../dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../dist/js/demo.js"></script>
 <!-- page script -->
+
 <script>
 $(document).ready(function() {
-<<<<<<< HEAD
   // modal email load
 jQuery(document).on('click','.send_email',function(e){
    e.preventDefault();
@@ -193,7 +116,7 @@ jQuery(document).on('click','.view-review',function(e){
     var thtml=''; 
    $('#dynamiccontent').empty();
     var thtml='<div class="modal-header" >';
-        thtml+='<h4 class="modal-title float-left">Review Details of '+revname+'</h4>';
+        thtml+='<h4 class="modal-title float-left">Reviewer '+revname+'</h4>';
         thtml+='<button type="button" class="close" data-dismiss="modal" id="modalclose" aria-hidden="true">&times;</button>';
         thtml+='</div>';
         thtml+='<div class="modal-body">';
@@ -202,8 +125,8 @@ jQuery(document).on('click','.view-review',function(e){
         thtml+='<p>Product Name: <b>'+proname+'</b> </p><hr>';
         thtml+='<p>Rating: <b>'+revrating+'</b> </p><hr>';
         thtml+='<p>Discription / Subject: <b>'+revsub+'</b> </p><hr>';
-        thtml+='<p>Product Image: <b>'+revImg+'</b> </p><hr>';
         thtml+='<p>Status: <b>'+revstatus+'</b> </p><hr>';
+        thtml+='<p>Product Image: <br><b>Note:</b> please drag image into Url if you want to show in full size.  <b>'+revImg+'</b> </p><hr>';
       $('#dynamiccontent').append(thtml);
         $('#responceModal').modal({
         backdrop: 'static'
@@ -213,12 +136,13 @@ jQuery(document).on('click','.view-review',function(e){
 });
 
 $(document).ready(function() {
+  var shop = '<?php echo $_SESSION["shop_encrypt"];?>';
 jQuery(document).on('click','#sent_email',function(e){
        e.preventDefault();
       var adminRevReply        = $( '#adminRevReply' ).val();
       if(adminRevReply!==""){
       var customer_email = jQuery(this).attr('customer_email');
-       loadReviews = [ { "action": "sendEmail", "adminRevReply": adminRevReply, "replyTo": customer_email}];
+       loadReviews = [ { "action": "sendEmail", "adminRevReply": adminRevReply, "replyTo": customer_email,'shop_encrypt':shop}];
       $.ajax({
        type: "POST",
        url: "../../productReview/ManageReviews.php",
@@ -240,9 +164,6 @@ jQuery(document).on('click','#sent_email',function(e){
 $(document).ready(function() {
    var shop = '<?php echo $_SESSION["shop_encrypt"];?>';
   loadReviews = [ { "action": "loadReviews",'shop_encrypt':shop}];
-=======
-  loadReviews = [ { "action": "loadReviews"}];
->>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
       $.ajax({
        type: "POST",
        url: "../../productReview/ManageReviews.php",
@@ -261,7 +182,6 @@ $(document).ready(function() {
 </script>
 <script>
 jQuery(document).ready(function(){
-<<<<<<< HEAD
   // Toggle Review Status
   jQuery(document).on('click','.status_toggle',function(e){
    e.preventDefault();
@@ -273,15 +193,6 @@ jQuery(document).ready(function(){
       updateReviewStatus = [ { "action": "reviewStatusToggle", "review_id": review_id ,"status":status,'shop_encrypt':shop}];
       $(".status-"+review_id).empty();
       $.ajax({
-=======
-  jQuery(document).on('click','.status_toggle',function(e){
-   e.preventDefault();
-     var review_id = jQuery(this).attr('review_id');
-     var status    = jQuery(".status-"+review_id).text();
-     updateReviewStatus = [ { "action": "reviewStatusToggle", "review_id": review_id ,"status":status}];
-  $(".status-"+review_id).empty();
-       $.ajax({
->>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
           type : "POST",
           // dataType: "json",
           url  : "../../productReview/ManageReviews.php",
@@ -289,7 +200,6 @@ jQuery(document).ready(function(){
           success : function( response ) {
            var result=jQuery.parseJSON(response);
             $(".status-"+review_id).append(result['status']);
-<<<<<<< HEAD
             location.reload();
             }
       });
@@ -303,16 +213,6 @@ jQuery(document).ready(function(){
       var review_id = jQuery(this).attr('review_id');
       deleteReview = [ { "action": "reviewDelete", "review_id": review_id}];
       $.ajax({
-=======
-            }
-        });
-  });
-  jQuery(document).on('click','.del-review',function(e){
-   e.preventDefault();
-     var review_id = jQuery(this).attr('review_id');
-     deleteReview = [ { "action": "reviewDelete", "review_id": review_id}];
-       $.ajax({
->>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
           type : "POST",
           // dataType: "json",
           url  : "../../productReview/ManageReviews.php",
@@ -323,14 +223,8 @@ jQuery(document).ready(function(){
            location.reload();
             }
         });
-<<<<<<< HEAD
     }
   });
 }); 
-=======
-  });
-
- }); 
->>>>>>> d7022d1858dc10e35ea7c559c57146cadf527262
 
 </script>

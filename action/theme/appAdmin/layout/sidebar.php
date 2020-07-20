@@ -2,21 +2,20 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="#" class="brand-link">
-      <img src="layout/images/r.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+      <img src="layout/images/r&t.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">Product Review</span>
+      <span class="brand-text font-weight-light">Admin</span>
     </a>
 
     <!-- Sidebar -->
     <div class="sidebar">
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-        <!-- <div class="image">
-          <img src="theme/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+        <div class="image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Shop Admin</a>
-        </div> -->
+          <a href="#" class="d-block">Review & Testimonial</a>
+        </div>
       </div>
 
       <!-- Sidebar Menu -->
@@ -25,7 +24,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview menu-open">
-            <a href="index.php?shop=<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link active">
+            <a href="index.php?<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -34,7 +33,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="manageReview.php?shop=<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link">
+            <a href="manageReview.php?<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link">
               <i class="nav-icon fa fa-cogs"></i>
               <p>
                 Manage Reviews
@@ -43,7 +42,7 @@
           </li>
          
           <li class="nav-item">
-            <a href="reviewRequest.php?shop=<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link">
+            <a href="reviewRequest.php?<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link">
               <i class="nav-icon fa fa-envelope"></i>
               <p>
                 Review Request Email
@@ -59,7 +58,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="exportReview.php?shop=<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link">
+            <a href="exportReview.php?<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link">
               <i class="nav-icon fa fa-cube"></i>
               <p>
                 Export Review
@@ -67,7 +66,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="importReview.php?shop=<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link">
+            <a href="importReview.php?<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link">
               <i class="nav-icon fa fa-cubes"></i>
               <p>
                 Import Review
@@ -75,7 +74,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="faq.php?shop=<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link">
+            <a href="faq.php?<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link">
               <i class="nav-icon fa fa-question-circle"></i>
               <p>
                 FAQ
@@ -83,7 +82,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="settings.php?shop=<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link">
+            <a href="settings.php?<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link">
               <i class="nav-icon fa fa-cogs"></i>
               <p>
                 Settings
@@ -91,7 +90,7 @@
             </a>
           </li>
             <li class="nav-item">
-            <a href="myPlan.php?shop=<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link">
+            <a href="myPlan.php?<?php echo $_SESSION["shop_encrypt"];?>" class="nav-link">
               <i class="nav-icon fa fa-puzzle-piece"></i>
               <p>
                 Plans & Pricing

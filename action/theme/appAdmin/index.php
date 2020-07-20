@@ -22,12 +22,11 @@
       <div class="row">
           <div class="col-md-12">
             <div class="row">
-
               <div class="col-md-3">
                 <!-- USERS LIST -->
                 <div class="card">
                   <div class="card-header">
-                    <h3 class="card-title">Review Widget</h3>
+                    <h3 class="card-title">Pricing & Plans</h3>
 
                     <div class="card-tools">
                       <span class="badge badge-danger"> New </span>
@@ -39,99 +38,12 @@
                   </div>
                   <!-- /.card-body -->
                   <div class="card-footer text-center">
-                    <a href="manageReview.php?shop=<?php echo $_SESSION["shop_encrypt"];?>">Customize-></a>
+                    <a href="#">Customize-></a>
                   </div>
                   <!-- /.card-footer -->
                 </div>
                 <!--/.card -->
               </div>
-              <div class="col-md-3">
-                <!-- USERS LIST -->
-                <div class="card">
-                  <div class="card-header">
-                    <h3 class="card-title">Import Reviews</h3>
-
-                    <div class="card-tools">
-                      <span class="badge badge-danger">New</span>
-                    </div>
-                  </div>
-                  <!-- /.card-header -->
-                  <div class="card-body p-0">
-                    
-                  </div>
-                  <!-- /.card-body -->
-                  <div class="card-footer text-center">
-                    <a href="importReview.php?shop=<?php echo $_SESSION["shop_encrypt"];?>">Import Reviews-></a>
-                  </div>
-                  <!-- /.card-footer -->
-                </div>
-                <!--/.card -->
-              </div>
-              <div class="col-md-3">
-                <!-- USERS LIST -->
-                <div class="card">
-                  <div class="card-header">
-                    <h3 class="card-title">Export Reviews</h3>
-
-                    <div class="card-tools">
-                      <span class="badge badge-danger"> New</span>
-                    </div>
-                  </div>
-                  <!-- /.card-header -->
-                  <div class="card-body p-0">
-                    
-                  </div>
-                  <!-- /.card-body -->
-                  <div class="card-footer text-center">
-                    <a href="exportReview.php?shop=<?php echo $_SESSION["shop_encrypt"];?>">Export Reviews-></a>
-                  </div>
-                  <!-- /.card-footer -->
-                </div>
-                <!--/.card -->
-              </div>
-              <div class="col-md-3">
-                <!-- USERS LIST -->
-                <div class="card">
-                  <div class="card-header">
-                    <h3 class="card-title">Request Email</h3>
-
-                    <div class="card-tools">
-                      <span class="badge badge-danger"> New</span>
-                    </div>
-                  </div>
-                  <!-- /.card-header -->
-                  <div class="card-body p-0">
-                    
-                  </div>
-                  <!-- /.card-body -->
-                  <div class="card-footer text-center">
-                    <a href="reviewRequest.php?shop=<?php echo $_SESSION["shop_encrypt"];?>">Review Request Email-></a>
-                  </div>
-                  <!-- /.card-footer -->
-                </div>
-                <!--/.card -->
-              </div>
-              <div class="col-md-3">
-                <!-- USERS LIST -->
-                <div class="card">
-                  <div class="card-header">
-                    <h3 class="card-title">My Notification</h3>
-
-                    <div class="card-tools">
-                      <span class="badge badge-danger"> New</span>
-                    </div>
-                  </div>
-                  <!-- /.card-header -->
-                  <div class="card-body p-0">
-                    
-                  </div>
-                  <!-- /.card-body -->
-                  <div class="card-footer text-center">
-                    <a href="notification.php?shop=<?php echo $_SESSION["shop_encrypt"];?>">All Notification-></a>
-                  </div>
-                  <!-- /.card-footer -->
-                </div>
-                <!--/.card -->
               </div>
   <?php 
 /*
